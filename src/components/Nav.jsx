@@ -5,7 +5,7 @@ function Nav() {
   const [navIsOpen, setNavIsOpen] = useState(false);
 
   return (
-    <div className="bg-slate-400 flex justify-between items-center">
+    <div className="relative  flex justify-between items-center z-10 p-4 md:px-12 lg:px-36">
       <img src={dagooLogo} alt="dagoo Logo" className="w-36 " />
       <div>
         <svg
@@ -24,7 +24,7 @@ function Nav() {
           />
         </svg>
         <div
-          className={`fixed gap-4 bg-blue-700 top-0
+          className={`fixed gap-4 bg-[#613886] top-0
            right-0 cursor-pointer transition-transform w-2/3 duration-500 ease-in-out text-white h-screen 
         ${navIsOpen ? "translate-x-0" : "translate-x-full"}
         flex flex-col p-4 items-center`}
@@ -45,7 +45,7 @@ function Nav() {
             />
           </svg>
 
-          <ul className="flex flex-col gap-4">
+          <ul className="flex flex-col gap-4 text-xl text-center mt-8">
             <li onClick={() => setNavIsOpen(false)}>Home</li>
             <li onClick={() => setNavIsOpen(false)}>Clients</li>
             <li onClick={() => setNavIsOpen(false)}>Works</li>
@@ -55,13 +55,43 @@ function Nav() {
           </ul>
         </div>
       </div>
-      <ul className="hidden md:flex text-white gap-4">
-        <li onClick={() => setNavIsOpen(false)}>Home</li>
-        <li onClick={() => setNavIsOpen(false)}>Clients</li>
-        <li onClick={() => setNavIsOpen(false)}>Works</li>
-        <li onClick={() => setNavIsOpen(false)}>Servces</li>
-        <li onClick={() => setNavIsOpen(false)}>About</li>
-        <li onClick={() => setNavIsOpen(false)}>Contact</li>
+      <ul className="hidden md:flex text-white gap-8">
+        <li
+          className="hover:underline cursor-pointer"
+          onClick={() => setNavIsOpen(false)}
+        >
+          Home
+        </li>
+        <li
+          className="hover:underline cursor-pointer"
+          onClick={() => setNavIsOpen(false)}
+        >
+          Clients
+        </li>
+        <li
+          className="hover:underline cursor-pointer"
+          onClick={() => setNavIsOpen(false)}
+        >
+          Works
+        </li>
+        <li
+          className="hover:underline cursor-pointer"
+          onClick={() => setNavIsOpen(false)}
+        >
+          Servces
+        </li>
+        <li
+          className="hover:underline cursor-pointer"
+          onClick={() => setNavIsOpen(false)}
+        >
+          About
+        </li>
+        <li
+          className="hover:underline cursor-pointer"
+          onClick={() => setNavIsOpen(false)}
+        >
+          Contact
+        </li>
       </ul>
     </div>
   );
