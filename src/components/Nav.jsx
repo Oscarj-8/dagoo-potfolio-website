@@ -10,7 +10,7 @@ function Nav() {
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6 text-white"
+          className="h-9 w-9 text-white md:hidden"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -19,19 +19,19 @@ function Nav() {
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
-            strokeWidth={3}
-            d="M4 6h16M4 12h16M4 18h16"
+            strokeWidth={2}
+            d="M4 6h16M4 12h16m-7 6h7"
           />
         </svg>
         <div
-          className={`absolute gap-4 bg-blue-700 top-0
-           right-0 cursor-pointer transition-transform w-1/2 duration-500 ease-in-out text-white h-screen
-        ${navIsOpen ? "translate-x-0" : "translate-x-full "}
-        flex flex-col p-4 items-center `}
+          className={`fixed gap-4 bg-blue-700 top-0
+           right-0 cursor-pointer transition-transform w-2/3 duration-500 ease-in-out text-white h-screen 
+        ${navIsOpen ? "translate-x-0" : "translate-x-full"}
+        flex flex-col p-4 items-center`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-8 w-8 text-white cursor-pointer md:hidden self-end"
+            className="h-8 w-8 text-white cursor-pointer  self-end"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -46,15 +46,23 @@ function Nav() {
           </svg>
 
           <ul className="flex flex-col gap-4">
-            <li>Home</li>
-            <li>Clients</li>
-            <li>Works</li>
-            <li>Servces</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li onClick={() => setNavIsOpen(false)}>Home</li>
+            <li onClick={() => setNavIsOpen(false)}>Clients</li>
+            <li onClick={() => setNavIsOpen(false)}>Works</li>
+            <li onClick={() => setNavIsOpen(false)}>Servces</li>
+            <li onClick={() => setNavIsOpen(false)}>About</li>
+            <li onClick={() => setNavIsOpen(false)}>Contact</li>
           </ul>
         </div>
       </div>
+      <ul className="hidden md:flex text-white gap-4">
+        <li onClick={() => setNavIsOpen(false)}>Home</li>
+        <li onClick={() => setNavIsOpen(false)}>Clients</li>
+        <li onClick={() => setNavIsOpen(false)}>Works</li>
+        <li onClick={() => setNavIsOpen(false)}>Servces</li>
+        <li onClick={() => setNavIsOpen(false)}>About</li>
+        <li onClick={() => setNavIsOpen(false)}>Contact</li>
+      </ul>
     </div>
   );
 }
