@@ -5,7 +5,7 @@ function Nav() {
   const [navIsOpen, setNavIsOpen] = useState(false);
 
   return (
-    <div className="relative  flex justify-between items-center z-10 p-4 md:px-12 lg:px-36">
+    <div className="relative w-full flex justify-between items-center z-10 p-4 md:px-12 lg:px-36">
       <img src={dagooLogo} alt="dagoo Logo" className="w-36 " />
       <div>
         <svg
