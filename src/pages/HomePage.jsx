@@ -2,7 +2,7 @@ import Hero from "../components/Hero";
 
 function HomePage() {
   return (
-    <div>
+    <div className="p-4 ">
       <Hero />
     </div>
   );
