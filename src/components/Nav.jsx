@@ -5,12 +5,12 @@ function Nav() {
   const [navIsOpen, setNavIsOpen] = useState(false);
 
   return (
-    <div className="relative w-full flex justify-between items-center z-10 p-4 md:px-12 lg:px-36">
+    <div className="relative w-full flex justify-between items-center z-20 p-4 md:p-6 lg:p-10 xl:px-16 2xl:px-28 3xl:px-36">
       <img src={dagooLogo} alt="dagoo Logo" className="w-36 " />
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-9 w-9 text-white md:hidden"
+          className="h-9 w-9 text-white lg:hidden"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -55,7 +55,7 @@ function Nav() {
           </ul>
         </div>
       </div>
-      <ul className="hidden md:flex text-white gap-8">
+      <ul className="hidden lg:flex text-white gap-8">
         <li
           className="hover:underline cursor-pointer"
           onClick={() => setNavIsOpen(false)}
