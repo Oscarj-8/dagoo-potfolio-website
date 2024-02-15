@@ -22,11 +22,14 @@ function Works() {
     //   </div>
     // </div>
 
-    <div className="flex flex-col items-center bg-mainColor">
-      <div className="my-48 flex flex-col items-center gap-12">
-        <h1 className="text-white">Our works</h1>
+    <div className="flex flex-col items-center bg-gradient-to-b from-worksFirst to-worksSecond">
+      {/* <div className="absolute left-0 rounded-full blur-[150px] bg-secondaryColor w-[400px] h-[400px] z-0"></div>
+      <div className="absolute right-0 top-24 rounded-full blur-[150px] bg-secondaryColor w-[400px] h-[400px] -z-10"></div>
+      <div className="absolute left-0 rounded-full blur-[150px] bg-secondaryColor w-[400px] h-[400px] z-0"></div>  */}
+      <div className="my-56 flex flex-col items-center gap-8 z-10">
+        <h1 className="text-2xl text-white font-semibold">Our works</h1>
 
-        <div className="flex flex-wrap gap-14 justify-center">
+        <div className="flex flex-wrap gap-14 justify-center z-10">
           <div className="card flex flex-col w-80  rounded-2xl h-[28em] overflow-hidden">
             <div className="bg-gradient-to-r from-secondaryColor to-cardHeaderMain rounded-t-2xl p-3 text-white">
               <h1 className="font-medium text-lg">Graphic Design</h1>

@@ -25,6 +25,8 @@ export default {
         mainColor: "#613886",
         secondaryColor: "#34C1ED",
         cardHeaderMain: "#8A63AD",
+        worksFirst: "#613886",
+        worksSecond: "#7A00E5",
       },
     },
   },
