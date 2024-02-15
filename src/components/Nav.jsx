@@ -6,7 +6,11 @@ function Nav() {
 
   return (
     <div className="relative w-full flex justify-between items-center z-20 p-4 md:p-6 lg:p-10 xl:px-16 2xl:px-28 3xl:px-36">
-      <img src={dagooLogo} alt="dagoo Logo" className="w-36 " />
+      <img
+        src={dagooLogo}
+        alt="dagoo Logo"
+        className="transition-all duration-1000 ease-in-out w-36 hover:rotate-[360deg] hover:scale-50"
+      />
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"

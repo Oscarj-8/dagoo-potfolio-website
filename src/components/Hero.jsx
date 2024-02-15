@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div
       className="flex flex-col items-center
-       h-screen bg-cover bg-center"
+       h-screen bg-cover bg-center w-full"
       style={{ backgroundImage: `url(${heroBg})` }}
     >
       <div className="absolute inset-0 bg-mainColor opacity-65"></div>
