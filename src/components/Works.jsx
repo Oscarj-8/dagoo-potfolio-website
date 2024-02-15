@@ -26,7 +26,7 @@ function Works() {
       {/* <div className="absolute left-0 rounded-full blur-[150px] bg-secondaryColor w-[400px] h-[400px] z-0"></div>
       <div className="absolute right-0 top-24 rounded-full blur-[150px] bg-secondaryColor w-[400px] h-[400px] -z-10"></div>
       <div className="absolute left-0 rounded-full blur-[150px] bg-secondaryColor w-[400px] h-[400px] z-0"></div>  */}
-      <div className="my-56 flex flex-col items-center gap-8 z-10">
+      <div className="my-80 flex flex-col items-center gap-8 z-10">
         <h1 className="text-2xl text-white font-semibold">Our works</h1>
 
         <div className="flex flex-wrap gap-14 justify-center z-10">
