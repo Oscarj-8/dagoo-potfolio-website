@@ -20,9 +20,10 @@ function Hero() {
             Your Path to Digital Excellence
           </h1>
           <p className="text-[#E8E8E8]">
-            At ligula justo morbi sagittis fusce. Accumsan magna habitant non
-            habitasse litora etiam torquent. Placerat lobortis volutpat
-            efficitur elementum sagittis leo amet euismod tristique.
+            At Dagoo Marketing, we redefine brands, unlocking their full
+            potential through tailored marketing solutions. With over two years
+            of industry expertise, we stand as a beacon of creativity,
+            delivering impactful results for our diverse clientele.
           </p>
         </div>
         <div className="flex w-full items-center justify-center flex-col gap-4 md:gap-8 text-[#EBEBEB] font-semibold md:flex-row">

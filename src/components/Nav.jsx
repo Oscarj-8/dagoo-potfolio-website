@@ -9,7 +9,7 @@ function Nav() {
       <img
         src={dagooLogo}
         alt="dagoo Logo"
-        className="transition-all duration-1000 ease-in-out w-36 hover:rotate-[360deg] hover:scale-50"
+        className="transition-all duration-1000 ease-in-out w-36 hover:rotate-[360deg] hover:scale-75"
       />
       <div>
         <svg
