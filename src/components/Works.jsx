@@ -1,9 +1,9 @@
-import Circles from "./Circles";
+// import Circles from "./Circles";
 
 function Works() {
   return (
     <div className="relative flex flex-col items-center bg-gradient-to-b from-worksFirst to-worksSecond overflow-hidden">
-      <Circles />
+      {/* <Circles /> */}
       <div className="my-[450px] flex flex-col items-center gap-8 z-10 md:my-[350px] lg:my-[400px] xl:my-[500px] 2xl:my-[250px] xl:gap-16">
         <div className="text-center flex flex-col text-white gap-2">
           <h1 className="text-2xl font-semibold lg:text-3xl">Our works</h1>
@@ -147,9 +147,9 @@ function Works() {
             </div>
           </div>
         </div>
-        <div className="w-full flex items-center justify-center gap-4">
-          <p className="text-white text-lg">See more</p>
-          <span className="text-2xl text-white">&raquo;</span>
+        <div className="w-32 cursor-pointer flex items-center justify-center gap-4 text-white hover:scale-105 hover:text-secondaryColor transition-all duration-300 ease-in-out p-1">
+          <p className=" text-lg">See more</p>
+          <span className="text-2xl">&raquo;</span>
         </div>
       </div>
     </div>
