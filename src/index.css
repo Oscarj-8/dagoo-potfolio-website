@@ -23,7 +23,36 @@
   transition: opacity 2s ease, transform 2s ease;
 }
 
-.fade-in.active {
+.fade-inn {
+  opacity: 0;
+  transform: translatex(-400px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.fade-in.active,
+.fade-inn.active {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* 
+.links:focus:after,
+.links:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.links:after {
+  content: "";
+  pointer-events: none;
+  bottom: -5px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  border-radius: 4px;
+  background-color: #31c719;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 300ms;
+  transition-property: width, left;
+} */

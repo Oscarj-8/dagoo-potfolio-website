@@ -1,3 +1,5 @@
+import design from "../images/design.png";
+import marketingStrategy from "../images/marketingStrategy.png";
 import React, { useRef, useEffect } from "react";
 
 function Services() {
@@ -58,10 +60,31 @@ function Services() {
             services.
           </p>
         </div>
-        <img
-          src="https://images.unsplash.com/photo-1707924989463-ef6ffe314359?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          className="w-64 flex-1 rounded-lg"
-        />
+        <img src={design} className="w-64 flex-1 rounded-lg" />
+      </div>
+      <div
+        className="fade-inn flex flex-wrap p-4 border-2 rounded-lg gap-2"
+        ref={(el) => (fadeIns.current[1] = el)}
+      >
+        <div className="flex flex-col">
+          <h2
+            className="text-2xl font-bold text-[#414141] tracking-wide"
+            style={textStyle}
+          >
+            MARKETING STRATEGY
+          </h2>
+          <h4 className="text-lg font-normal" style={textStyle}>
+            Marketing Planning | Marketing Management Brand Strategy | Market
+            Research| Communications and Public Relation
+          </h4>
+          <p>
+            Success hinges on a strong marketing strategy, especially in today's
+            dynamic digital landscape. At Dagoo, we ease the burden by
+            seamlessly integrating tailored digital marketing strategies into
+            our services, aligning with your business goals and budget.
+          </p>
+        </div>
+        <img src={marketingStrategy} className="w-64 flex-1 rounded-lg" />
       </div>
     </div>
   );
