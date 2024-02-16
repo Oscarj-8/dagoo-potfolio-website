@@ -26,9 +26,8 @@ function Works() {
       {/* <div className="absolute left-0 rounded-full blur-[150px] bg-secondaryColor w-[400px] h-[400px] z-0"></div>
       <div className="absolute right-0 top-24 rounded-full blur-[150px] bg-secondaryColor w-[400px] h-[400px] -z-10"></div>
       <div className="absolute left-0 rounded-full blur-[150px] bg-secondaryColor w-[400px] h-[400px] z-0"></div>  */}
-      <div className="my-[700px] flex flex-col items-center gap-8 z-10">
-        <h1 className="text-2xl text-white font-semibold">Our works</h1>
-
+      <div className="my-[350px] flex flex-col items-center gap-8 z-10">
+        s<h1 className="text-2xl text-white font-semibold">Our works</h1>
         <div className="flex flex-wrap gap-14 justify-center z-10">
           <div className="card flex flex-col w-80  rounded-2xl h-[28em] overflow-hidden">
             <div className="bg-gradient-to-r from-secondaryColor to-cardHeaderMain rounded-t-2xl p-3 text-white">
