@@ -53,7 +53,7 @@ function Nav() {
             <li onClick={() => setNavIsOpen(false)}>Home</li>
             <li onClick={() => setNavIsOpen(false)}>Clients</li>
             <li onClick={() => setNavIsOpen(false)}>Works</li>
-            <li onClick={() => setNavIsOpen(false)}>Servces</li>
+            <li onClick={() => setNavIsOpen(false)}>Services</li>
             <li onClick={() => setNavIsOpen(false)}>About</li>
             <li onClick={() => setNavIsOpen(false)}>Contact</li>
           </ul>
@@ -82,7 +82,7 @@ function Nav() {
           className="hover:underline cursor-pointer"
           onClick={() => setNavIsOpen(false)}
         >
-          Servces
+          Services
         </li>
         <li
           className="hover:underline cursor-pointer"

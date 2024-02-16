@@ -63,62 +63,6 @@ function Services() {
           className="w-64 flex-1 rounded-lg"
         />
       </div>
-      {/* <div
-        className="page3-card card-2 fade-in"
-        ref={(el) => (fadeIns.current[1] = el)}
-      >
-        <div className="page3-text">
-          <h2>Connect with your community</h2>
-          <p>
-            Lewach helps with you connect with your local community by
-            exchanging items with people nearby. Support small businesses and
-            meet new people without leaving the comfort of your own home
-          </p>
-        </div>
-        <img src="https://images.unsplash.com/photo-1707924989463-ef6ffe314359?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-      </div>
-      <div
-        className="page3-card card-3 fade-in"
-        ref={(el) => (fadeIns.current[2] = el)}
-      >
-        <div className="page3-text">
-          <h2>REDUCE WASTE</h2>
-          <p>
-            By exchanging items with others, you can reduce waste and help the
-            environment. Lewach encourages sustainability and supports the
-            sharing economy.
-          </p>
-        </div>
-        <img src="https://images.unsplash.com/photo-1707924989463-ef6ffe314359?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-      </div>
-      <div
-        className="page3-card card-4 fade-in"
-        ref={(el) => (fadeIns.current[3] = el)}
-      >
-        <div className="page3-text">
-          <h2>Convenient delivery service</h2>
-          <p>
-            Our delivery service makes it easy to exchange items with others in
-            your community. You can arrange for pick-up and delivery of items,
-            saving you time and hassle.
-          </p>
-        </div>
-        <img src="https://images.unsplash.com/photo-1707924989463-ef6ffe314359?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-      </div>
-      <div
-        className="page3-card card-5 fade-in"
-        ref={(el) => (fadeIns.current[4] = el)}
-      >
-        <div className="page3-text">
-          <h2>increase variety in your life</h2>
-          <p>
-            Find new items to enjoy and explore through item exchange, including
-            unique and interesting pieces that might not have otherwise
-            discovered.
-          </p>
-        </div>
-        <img src="https://images.unsplash.com/photo-1707924989463-ef6ffe314359?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-      </div> */}
     </div>
   );
 }
