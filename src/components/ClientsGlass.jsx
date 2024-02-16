@@ -14,9 +14,10 @@ function ClientsGlass() {
         <img src={Borsaye} className="flex-1 w-36 lg:w-48 xl:w-36" alt="" />
         <img src={Solo} className="flex-1 w-32 xl:w-48" alt="" />
         <img src={Sabegn} className="flex-1 w-32  xl:w-36" alt="" />
-        <img src={Lala} className="flex-1 w-32  xl:w-36" alt="" />
-        <img src={Legacy} className="flex-1 w-36  xl:w-28" alt="" />
         <img src={Gets} className="flex-1 w-32  xl:w-28" alt="" />
+        <img src={Legacy} className="flex-1 w-36  xl:w-28" alt="" />
+
+        <img src={Lala} className="flex-1 w-32  xl:w-36" alt="" />
       </div>
     </div>
   );
