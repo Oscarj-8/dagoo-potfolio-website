@@ -12,10 +12,10 @@ function Hero() {
       <div className="flex flex-col items-center gap-8 z-10 mt-[5.25em] 2xl:mt-[2.5em] md:max-w-[700px] md:p-4 ">
         <div className="flex bg-gradient-to-r from-mainColor/30 to-secondaryColor/30 py-1 px-3 rounded-[24px] backdrop-blur-sm shadow-xl">
           <span className="uppercase text-white font-medium">
-            Welcome to dagoo.inc
+            Welcome to dagoo
           </span>
         </div>
-        <div className="flex flex-col items-center text-center gap-4">
+        <div className="flex flex-col items-center text-center gap-4 p-2">
           <h1 className="text-4xl text-white font-bold lg:text-5xl xl:text-6xl">
             Your Path to Digital Excellence
           </h1>

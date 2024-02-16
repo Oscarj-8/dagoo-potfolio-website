@@ -5,7 +5,7 @@ import Works from "../components/Works";
 function HomePage() {
   return (
     <div
-      className="flex flex-col items-center
+      className="flex flex-col items-center 
     "
     >
       <Hero />
