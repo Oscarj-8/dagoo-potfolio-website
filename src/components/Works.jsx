@@ -4,7 +4,7 @@ function Works() {
   return (
     <div className="relative flex flex-col items-center bg-gradient-to-b from-worksFirst to-worksSecond overflow-hidden">
       {/* <Circles /> */}
-      <div className="mt-[450px] flex flex-col items-center gap-8 z-10 md:mt-[350px] lg:mt-[400px] xl:mt-[500px] 2xl:mt-[250px] xl:gap-16">
+      <div className="mt-[400px] flex flex-col items-center gap-8 z-10 md:mt-[350px] lg:mt-[400px] xl:mt-[500px] 2xl:mt-[250px] xl:gap-16">
         <div className="text-center flex flex-col text-white gap-2">
           <h1 className="text-2xl font-semibold lg:text-3xl">Our works</h1>
           <p className="text-white/80 text-lg">Here are some of our works</p>
