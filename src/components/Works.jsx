@@ -147,7 +147,7 @@ function Works() {
             </div>
           </div>
         </div>
-        <div className="w-32 cursor-pointer flex items-center justify-center gap-4 text-white hover:scale-105 hover:text-secondaryColor transition-all duration-300 ease-in-out p-1">
+        <div className="w-32 cursor-pointer flex items-center justify-center gap-4 text-white hover:scale-105 hover:text-secondaryColor transition-all duration-300 ease-in-out p-1 my-4">
           <p className=" text-lg">See more</p>
           <span className="text-2xl">&raquo;</span>
         </div>
