@@ -47,7 +47,7 @@ function Services() {
       </div>
       <div className="flex flex-wrap items-stretch justify-center gap-8 mx-[0.5em]">
         <div
-          className="fade-in flex flex-col -w-[400px] p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center"
+          className="fade-in flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full"
           ref={(el) => (fadeIns.current[0] = el)}
         >
           <div className="flex flex-col gap-2 xl lg:w-[60]">
@@ -71,7 +71,7 @@ function Services() {
           <img src={design} className="flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-inn flex flex-col -w-[400px] p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center"
+          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full"
           ref={(el) => (fadeIns.current[1] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -92,10 +92,10 @@ function Services() {
               our services, aligning with your business goals and budget.
             </p>
           </div>
-          <img src={marketingStrategy} className="w-64 flex-1 rounded-lg" />
+          <img src={marketingStrategy} className=" flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-in flex flex-col -w-[400px] p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center"
+          className="fade-in flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full"
           ref={(el) => (fadeIns.current[2] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -113,10 +113,10 @@ function Services() {
               your target audience.
             </p>
           </div>
-          <img src={contentMarketing} className="w-64 flex-1 rounded-lg" />
+          <img src={contentMarketing} className=" flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-inn flex flex-col -w-[400px] p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center"
+          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full"
           ref={(el) => (fadeIns.current[3] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -134,10 +134,10 @@ function Services() {
               with the audience.
             </p>
           </div>
-          <img src={motionGraphics} className="w-64 flex-1 rounded-lg" />
+          <img src={motionGraphics} className=" flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-in flex flex-col -w-[400px] p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center"
+          className="fade-in flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full"
           ref={(el) => (fadeIns.current[4] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -155,10 +155,10 @@ function Services() {
               photography ensures a cohesive and compelling brand presence
             </p>
           </div>
-          <img src={photography} className="w-64 flex-1 rounded-lg" />
+          <img src={photography} className=" flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-inn flex flex-col -w-[400px] p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center"
+          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full"
           ref={(el) => (fadeIns.current[5] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -176,10 +176,10 @@ function Services() {
               resonates across all platforms.
             </p>
           </div>
-          <img src={advertising} className="w-64 flex-1 rounded-lg" />
+          <img src={advertising} className=" flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-in flex flex-col -w-[400px] p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center"
+          className="fade-in flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full"
           ref={(el) => (fadeIns.current[6] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -196,10 +196,10 @@ function Services() {
               brand effectively, from intimate gatherings to grand openings.
             </p>
           </div>
-          <img src={socialMedia} className="w-64 flex-1 rounded-lg" />
+          <img src={socialMedia} className=" flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-inn flex flex-col -w-[400px] p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center"
+          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full"
           ref={(el) => (fadeIns.current[7] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -216,10 +216,10 @@ function Services() {
               following and are viewed as experts within their niche.
             </p>
           </div>
-          <img src={influencerMarketing} className="w-64 flex-1 rounded-lg" />
+          <img src={influencerMarketing} className=" flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-in flex flex-col -w-[400px] p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center"
+          className="fade-in flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full"
           ref={(el) => (fadeIns.current[8] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -240,7 +240,7 @@ function Services() {
               guarantee success.
             </p>
           </div>
-          <img src={eventManagement} className="w-64 flex-1 rounded-lg" />
+          <img src={eventManagement} className=" flex-1 rounded-lg" />
         </div>
       </div>
     </div>
