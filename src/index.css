@@ -56,3 +56,7 @@
   transition-duration: 300ms;
   transition-property: width, left;
 } */
+
+.text {
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
