@@ -29,6 +29,9 @@ export default {
         worksSecond: "#7A00E5",
       },
     },
+    fontFamily: {
+      rubik: ["Rubik", "sans-serif"],
+    },
   },
   plugins: [],
 };

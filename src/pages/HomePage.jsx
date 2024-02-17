@@ -1,3 +1,4 @@
+import About from "../components/About";
 import ClientsGlass from "../components/ClientsGlass";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
@@ -13,6 +14,7 @@ function HomePage() {
       <ClientsGlass />
       <Works />
       <Services />
+      <About />
     </div>
   );
 }
