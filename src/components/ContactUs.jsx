@@ -1,8 +1,7 @@
-import email from "../../assets/images/email.png";
-import telephone from "../../assets/images/telephone-call.png";
-import placeholder from "../../assets/images/placeholder.png";
-import clock from "../../assets/images/clock.png";
-import React from "react";
+import email from "../images/email.png";
+import telephone from "../images/telephone-call.png";
+import placeholder from "../images/placeholder.png";
+import clock from "../images/clock.png";
 
 function ContactUs() {
   return (

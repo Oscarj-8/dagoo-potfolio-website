@@ -1,5 +1,6 @@
 import About from "../components/About";
 import ClientsGlass from "../components/ClientsGlass";
+import ContactUs from "../components/ContactUs";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 import Works from "../components/Works";
@@ -15,6 +16,7 @@ function HomePage() {
       <Works />
       <Services />
       <About />
+      {/* <ContactUs /> */}
     </div>
   );
 }
