@@ -7,7 +7,6 @@ import advertising from "../images/advertising.png";
 import socialMedia from "../images/socialMedia.png";
 import influencerMarketing from "../images/influencerMarketing.png";
 import eventManagement from "../images/eventManagement.png";
-import DAGOO from "../images/DAGOOPATTERN.png";
 import React, { useRef, useEffect } from "react";
 
 function Services() {
@@ -40,10 +39,7 @@ function Services() {
   }, []);
 
   return (
-    <div
-      className="flex flex-col p-2  justify-center items-center gap-8 overflow-hidden bg-cover bg-center"
-      style={{ backgroundImage: `url(${DAGOO})` }}
-    >
+    <div className="flex flex-col p-2 my-4 justify-center items-center gap-8 overflow-hidden bg-cover bg-center">
       <div>
         <h1 className="text-2xl font-semibold lg:text-3xl text-mainColor">
           Our services
@@ -51,7 +47,7 @@ function Services() {
       </div>
       <div className="flex flex-wrap items-stretch justify-center gap-8 mx-[0.5em]">
         <div
-          className="fade-in flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full "
+          className="fade-in flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full bg-white"
           ref={(el) => (fadeIns.current[0] = el)}
         >
           <div className="flex flex-col gap-2 xl lg:w-[60]">
@@ -75,7 +71,7 @@ function Services() {
           <img src={design} className="flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full "
+          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full bg-white"
           ref={(el) => (fadeIns.current[1] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -99,7 +95,7 @@ function Services() {
           <img src={marketingStrategy} className=" flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-in flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full "
+          className="fade-in flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full bg-white"
           ref={(el) => (fadeIns.current[2] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -120,7 +116,7 @@ function Services() {
           <img src={contentMarketing} className=" flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full "
+          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full bg-white"
           ref={(el) => (fadeIns.current[3] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -141,7 +137,7 @@ function Services() {
           <img src={motionGraphics} className=" flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-in flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full "
+          className="fade-in flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full bg-white"
           ref={(el) => (fadeIns.current[4] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -162,7 +158,7 @@ function Services() {
           <img src={photography} className=" flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full "
+          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full bg-white"
           ref={(el) => (fadeIns.current[5] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -183,7 +179,7 @@ function Services() {
           <img src={advertising} className=" flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-in flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full "
+          className="fade-in flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full bg-white"
           ref={(el) => (fadeIns.current[6] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -203,7 +199,7 @@ function Services() {
           <img src={socialMedia} className=" flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full "
+          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full bg-white"
           ref={(el) => (fadeIns.current[7] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -223,7 +219,7 @@ function Services() {
           <img src={influencerMarketing} className=" flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-in flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full "
+          className="fade-in flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full bg-white"
           ref={(el) => (fadeIns.current[8] = el)}
         >
           <div className="flex flex-col gap-2">
