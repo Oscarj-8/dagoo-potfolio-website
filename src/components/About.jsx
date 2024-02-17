@@ -28,7 +28,7 @@ function About() {
             services.
           </p>
           <button className="bg-gradient-to-r from-mainColor to-secondaryColor w-[9em] p-[10px] rounded-3xl drop-shadow-[0px_5px_2px_rgba(0,0,0,0.25)] transition-all duration-500 ease-in-out hover:drop-shadow-none ">
-            See our works
+            Contact us
           </button>
         </div>
         <img
