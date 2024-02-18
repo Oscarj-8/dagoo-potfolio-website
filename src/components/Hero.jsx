@@ -1,15 +1,15 @@
 import Nav from "./Nav";
 import heroBg from "../images/heroBg.png";
-function Hero() {
+function Hero({ scrollToSection }) {
   return (
     <div
       className="flex flex-col items-center
-       h-screen bg-cover bg-center w-full"
+       h-screen bg-cover bg-center w-full "
       style={{ backgroundImage: `url(${heroBg})` }}
     >
       <div className="absolute inset-0 bg-mainColor opacity-65 h-screen"></div>
-      <Nav />
-      <div className="flex flex-col items-center gap-8 z-10 mt-[5.25em] 2xl:mt-[2.5em] md:max-w-[700px] md:p-4 ">
+      <Nav scrollToSection={scrollToSection} />
+      <div className="flex flex-col items-center gap-8 z-10 mt-[8.25em] 2xl:mt-[2.5em] md:max-w-[700px] md:p-4">
         <div className="flex bg-gradient-to-r from-mainColor/30 to-secondaryColor/30 py-1 px-3 rounded-[24px] backdrop-blur-sm shadow-xl">
           <span className="uppercase text-white font-medium">
             Welcome to dagoo
