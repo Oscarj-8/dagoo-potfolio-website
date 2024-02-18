@@ -11,7 +11,7 @@ function About() {
       style={{ backgroundImage: `url(${Vector}` }}
     >
       <marquee
-        className="absolute top-[5em] text-[3em] lg:text-[5em] font-bold z-0 text-white/15"
+        className="absolute top-[6em] text-[3em] lg:text-[5em] font-bold z-0 text-white/15"
         scrollamount="5"
         direction="right"
       >
