@@ -27,7 +27,7 @@ function Hero() {
           </p>
         </div>
         <div className="flex w-full items-center justify-center flex-col gap-4 md:gap-8 text-[#EBEBEB] font-semibold md:flex-row">
-          <button className="bg-gradient-to-r from-mainColor to-secondaryColor w-[9em] p-[10px] rounded-3xl shadow-xl  transition-all duration-500 ease-in-out">
+          <button className="bg-gradient-to-r from-mainColor to-secondaryColor w-[9em] p-[10px] rounded-3xl shadow-xl transition-all duration-500 ease-in-out hover:shadow-2xl">
             See our works
           </button>
           <button className=" button border-2 border-secondaryColor w-[9em] p-2 rounded-3xl shadow-xl transition-all duration-500 ease-in-out">
