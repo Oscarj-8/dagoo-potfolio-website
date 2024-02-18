@@ -7,10 +7,17 @@ function About() {
   };
   return (
     <div
-      className="w-full h-screen bg-center bg-cover -mt-[5em] flex items-center justify-center"
+      className="relative w-full h-screen bg-center bg-cover -mt-[5em] flex items-center justify-center"
       style={{ backgroundImage: `url(${Vector}` }}
     >
-      <div className="mt-[15em] flex flex-col p-4 gap-2 lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full text-white">
+      <marquee
+        className="absolute top-[5em] text-[3em] lg:text-[5em] font-bold z-0 text-white/15"
+        scrollamount="5"
+        direction="right"
+      >
+        Dagoo.inc
+      </marquee>
+      <div className="mt-[15em] flex flex-col p-4 gap-2 lg:flex-row xl:w-[70em] items-center max-w-[400px] lg:max-w-full text-white z-10">
         <div className="flex flex-col gap-4 xl lg:w-[60]">
           <h2 className="text-2xl font-bold tracking-wide xl:text-3xl border-b-4 w-fit border-secondaryColor font-rubik  2xl:text-2xl">
             Who We Are
