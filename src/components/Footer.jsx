@@ -26,18 +26,28 @@ function Footer() {
               icon={faTiktok}
               className="reflect text-2xl xl:text-3xl cursor-pointer hover:scale-125 transition-all duration-500 ease-in-out"
             />
-            <FontAwesomeIcon
-              icon={faInstagram}
-              className="reflect text-2xl xl:text-3xl cursor-pointer hover:scale-125 transition-all duration-500 ease-in-out"
-            />
+            <a
+              href="https://www.instagram.com/dagooinc?igsh=ZDd6czJndWZ3MWJ1"
+              target="_blank"
+            >
+              <FontAwesomeIcon
+                icon={faInstagram}
+                className="reflect text-2xl xl:text-3xl cursor-pointer hover:scale-125 transition-all duration-500 ease-in-out"
+              />
+            </a>
             <FontAwesomeIcon
               icon={faFacebook}
               className="reflect text-2xl xl:text-3xl cursor-pointer hover:scale-125 transition-all duration-500 ease-in-out"
             />
-            <FontAwesomeIcon
-              icon={faLinkedin}
-              className="reflect text-2xl xl:text-3xl cursor-pointer hover:scale-125 transition-all duration-500 ease-in-out"
-            />
+            <a
+              href="https://www.linkedin.com/in/dagoo-incorporated-02abaa24b/"
+              target="_blank"
+            >
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                className="reflect text-2xl xl:text-3xl cursor-pointer hover:scale-125 transition-all duration-500 ease-in-out"
+              />
+            </a>
           </div>
         </div>
         <div className="w-full md:w-fit flex flex-col text-center md:text-left">
