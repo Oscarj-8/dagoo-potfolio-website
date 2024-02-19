@@ -22,10 +22,12 @@ function Footer() {
             goals and audience preferences for maximum impact.
           </p>
           <div className="flex justify-center gap-6">
-            <FontAwesomeIcon
-              icon={faTiktok}
-              className="reflect text-2xl xl:text-3xl cursor-pointer hover:scale-125 transition-all duration-500 ease-in-out"
-            />
+            <a href="https://www.tiktok.com/@dagooproduction" target="_blank">
+              <FontAwesomeIcon
+                icon={faTiktok}
+                className="reflect text-2xl xl:text-3xl cursor-pointer hover:scale-125 transition-all duration-500 ease-in-out"
+              />
+            </a>
             <a
               href="https://www.instagram.com/dagooinc?igsh=ZDd6czJndWZ3MWJ1"
               target="_blank"
@@ -35,10 +37,12 @@ function Footer() {
                 className="reflect text-2xl xl:text-3xl cursor-pointer hover:scale-125 transition-all duration-500 ease-in-out"
               />
             </a>
-            <FontAwesomeIcon
-              icon={faFacebook}
-              className="reflect text-2xl xl:text-3xl cursor-pointer hover:scale-125 transition-all duration-500 ease-in-out"
-            />
+            <a href="https://www.facebook.com/profile.php?id=100093583251408">
+              <FontAwesomeIcon
+                icon={faFacebook}
+                className="reflect text-2xl xl:text-3xl cursor-pointer hover:scale-125 transition-all duration-500 ease-in-out"
+              />
+            </a>
             <a
               href="https://www.linkedin.com/in/dagoo-incorporated-02abaa24b/"
               target="_blank"
