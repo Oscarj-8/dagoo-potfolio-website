@@ -35,7 +35,7 @@ function Hero({ scrollToSection }) {
             Contact us
           </button>
         </div>
-        <CallUs />
+        {/* <CallUs /> */}
       </div>
     </div>
   );
