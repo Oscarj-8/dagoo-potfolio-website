@@ -14,7 +14,7 @@ const ContactUs = () => (
   <div className="flex flex-col w-full p-4 items-center justify-between gap-4 lg:flex-row max-w-[1500px] mx-auto mb-8">
     <div className="text-center lg:text-left w-full flex flex-col gap-4">
       <h1 className="text-2xl font-semibold lg:text-3xl text-mainColor">
-        Our services
+        Contact us
       </h1>
       <p className="text-[#323232] text-lg">
         Thank you for visiting our website. We value your feedback and would
