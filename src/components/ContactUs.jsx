@@ -26,7 +26,7 @@ const ContactUs = () => (
         <div className="flex w-full cursor-pointer text-left gap-4 hover:scale-105 transition-all duration-500 ease-in-out">
           <FontAwesomeIcon icon={faEnvelope} className="h-8 text-mainColor" />
           <div className="text-[#323232] ">
-            <h1 className="text-2xl font-semibold" style={textStyle}>
+            <h1 className="text-xl md:text-2xl font-semibold" style={textStyle}>
               Email
             </h1>
             <p>h1@yahoo.com</p>
@@ -39,7 +39,7 @@ const ContactUs = () => (
             className="h-8 text-mainColor"
           />
           <div className="text-[#323232] ">
-            <h1 className="text-2xl font-semibold" style={textStyle}>
+            <h1 className="text-xl md:text-2xl font-semibold" style={textStyle}>
               Address
             </h1>
             <p>Somewhere here</p>
@@ -49,7 +49,7 @@ const ContactUs = () => (
         <div className="flex w-full cursor-pointer text-left gap-4 hover:scale-105 transition-all duration-500 ease-in-out">
           <FontAwesomeIcon icon={faPhone} className="h-8 text-mainColor" />
           <div className="text-[#323232] ">
-            <h1 className="text-2xl font-semibold" style={textStyle}>
+            <h1 className="text-xl md:text-2xl font-semibold" style={textStyle}>
               Phone
             </h1>
             <p>Mobile: (555) 555-5555</p>
@@ -59,7 +59,7 @@ const ContactUs = () => (
         <div className="flex w-full cursor-pointer text-left gap-4 hover:scale-105 transition-all duration-500 ease-in-out">
           <FontAwesomeIcon icon={faClock} className="h-8 text-mainColor" />
           <div className="text-[#323232] ">
-            <h1 className="text-2xl font-semibold" style={textStyle}>
+            <h1 className="text-xl md:text-2xl font-semibold" style={textStyle}>
               Opening Hours
             </h1>
             <p>Monday to Sunday</p>
