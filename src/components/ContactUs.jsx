@@ -36,7 +36,7 @@ const ContactUs = () => (
         <div className="flex w-full cursor-pointer text-left gap-4 hover:scale-105 transition-all duration-500 ease-in-out">
           <FontAwesomeIcon
             icon={faMapMarkerAlt}
-            className="h-8 text-mainColor"
+            className="h-10 text-mainColor"
           />
           <div className="text-[#323232] ">
             <h1 className="text-xl md:text-2xl font-semibold" style={textStyle}>
