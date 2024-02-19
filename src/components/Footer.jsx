@@ -37,7 +37,10 @@ function Footer() {
                 className="reflect text-2xl xl:text-3xl cursor-pointer hover:scale-125 transition-all duration-500 ease-in-out"
               />
             </a>
-            <a href="https://www.facebook.com/profile.php?id=100093583251408">
+            <a
+              href="https://www.facebook.com/profile.php?id=100093583251408"
+              target="_blank"
+            >
               <FontAwesomeIcon
                 icon={faFacebook}
                 className="reflect text-2xl xl:text-3xl cursor-pointer hover:scale-125 transition-all duration-500 ease-in-out"
