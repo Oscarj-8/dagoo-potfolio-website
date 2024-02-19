@@ -1,4 +1,5 @@
 import About from "../components/About";
+import BackToTop from "../components/BackToTop";
 import ClientsGlass from "../components/ClientsGlass";
 import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
@@ -14,6 +15,7 @@ function HomePage() {
     >
       <Hero />
       <ClientsGlass />
+      <BackToTop />
       <Works />
       <Services />
       <About />

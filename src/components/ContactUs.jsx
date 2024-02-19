@@ -19,8 +19,8 @@ const ContactUs = () => (
       <p className="text-[#323232] text-lg mb-4">
         Thank you for visiting our website. We value your feedback and would
         love to hear from you. If you have any questions, comments, or concerns
-        about our item exchange service, please contact us. We are available to
-        answer your questions and provide assistance.
+        please contact us. We are available to answer your questions and provide
+        assistance.
       </p>
       <div className="grid grid-cols-2 md:grid-cols-2 gap-4 ">
         <div className="flex w-full cursor-pointer text-left gap-4 hover:scale-105 transition-all duration-500 ease-in-out">
