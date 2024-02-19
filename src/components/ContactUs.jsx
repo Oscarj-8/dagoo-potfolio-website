@@ -16,7 +16,7 @@ const ContactUs = () => (
       <h1 className="text-2xl font-semibold lg:text-3xl text-mainColor">
         Contact us
       </h1>
-      <p className="text-[#323232] text-lg">
+      <p className="text-[#323232] text-lg mb-4">
         Thank you for visiting our website. We value your feedback and would
         love to hear from you. If you have any questions, comments, or concerns
         about our item exchange service, please contact us. We are available to
