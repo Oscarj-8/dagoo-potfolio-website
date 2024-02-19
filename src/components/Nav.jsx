@@ -5,7 +5,7 @@ function Nav() {
   const [navIsOpen, setNavIsOpen] = useState(false);
 
   return (
-    <div className="fixed w-full flex justify-between items-center z-20 p-4 md:p-6 lg:p-10 xl:px-16 2xl:px-28 3xl:px-36 bg-mainColor/50 backdrop-blur-sm shadow-xl lg:bg-transparent lg:backdrop-blur-none lg:shadow-none">
+    <div className="fixed w-full flex justify-between items-center z-20 p-4 md:p-6 lg:p-10 xl:px-16 2xl:px-28 3xl:px-36 bg-mainColor/50 backdrop-blur-sm shadow-xl lg:sticky lg:bg-transparent lg:backdrop-blur-none lg:shadow-none">
       <img
         src={dagooLogo}
         alt="dagoo Logo"
