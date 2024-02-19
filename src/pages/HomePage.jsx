@@ -16,7 +16,7 @@ function HomePage() {
       <Works />
       <Services />
       <About />
-      {/* <ContactUs /> */}
+      <ContactUs />
     </div>
   );
 }
