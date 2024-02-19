@@ -22,8 +22,8 @@ const ContactUs = () => (
         about our item exchange service, please contact us. We are available to
         answer your questions and provide assistance.
       </p>
-      <div className="flex w-full flex-wrap text-mainColor">
-        <div className="flex items-center gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-2 gap-4 ">
+        <div className="flex w-full cursor-pointer text-left gap-4 hover:scale-105 transition-all duration-500 ease-in-out">
           <FontAwesomeIcon icon={faEnvelope} className="h-8 text-mainColor" />
           <div className="text-[#323232] ">
             <h1 className="text-2xl font-semibold" style={textStyle}>
@@ -33,7 +33,7 @@ const ContactUs = () => (
             <p>h1@yahoo.com</p>
           </div>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex w-full cursor-pointer text-left gap-4 hover:scale-105 transition-all duration-500 ease-in-out">
           <FontAwesomeIcon
             icon={faMapMarkerAlt}
             className="h-8 text-mainColor"
@@ -46,7 +46,7 @@ const ContactUs = () => (
             <p>bole atlas, Addis Ababa.</p>
           </div>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex w-full cursor-pointer text-left gap-4 hover:scale-105 transition-all duration-500 ease-in-out">
           <FontAwesomeIcon icon={faPhone} className="h-8 text-mainColor" />
           <div className="text-[#323232] ">
             <h1 className="text-2xl font-semibold" style={textStyle}>
@@ -56,7 +56,7 @@ const ContactUs = () => (
             <p>fax: (555) 555-5555</p>
           </div>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex w-full cursor-pointer text-left gap-4 hover:scale-105 transition-all duration-500 ease-in-out">
           <FontAwesomeIcon icon={faClock} className="h-8 text-mainColor" />
           <div className="text-[#323232] ">
             <h1 className="text-2xl font-semibold" style={textStyle}>
@@ -68,9 +68,9 @@ const ContactUs = () => (
         </div>
       </div>
     </div>
-    <div className="flex flex-col w-full max-w-[700px] bg-slate-200 rounded-md p-3 gap-4 shadow-lg md:p-4">
+    <div className="flex flex-col w-full max-w-[700px] bg-gradient-to-br from-[#8239C3] to-[#16A2CE] rounded-md p-3 gap-4 shadow-lg md:p-4">
       <h2
-        className="text-xl md:text-3xl text-slate-700 font-semibold"
+        className="text-xl md:text-3xl text-white font-semibold"
         style={textStyle}
       >
         Get in touch
@@ -78,32 +78,32 @@ const ContactUs = () => (
       <form className="flex flex-col gap-4 mb-2 justify-center">
         <input
           id="name"
-          className="p-3 w-full border rounded-md border-slate-500"
+          className="p-3 w-full rounded-md "
           placeholder="Enter your name here"
           type="text"
         />
         <input
           id="email"
-          className="p-3 w-full border rounded-md border-slate-500"
+          className="p-3 w-full rounded-md "
           placeholder="Enter your email here"
           type="email"
         />
         <input
           id="number"
-          className="p-3 border w-full border-slate-500 rounded-md"
+          className="p-3 w-full  rounded-md"
           placeholder="Enter your number here"
           type="number"
         />
         <textarea
           name="message"
           id="message"
-          className="w-full p-3 border h-[200px]  border-slate-500 rounded-md"
+          className="w-full p-3  h-[200px] rounded-md"
           placeholder="Write your message here"
         ></textarea>
         <button
           type="button"
           variant="contained"
-          className="bg-mainColor p-2 text-white tracking-wider font-semibold text-xl w-full shadow-none hover:shadow-lg"
+          className="bg-[#8239C3] p-2 text-white tracking-wider rounded-md font-semibold text-xl w-full shadow-none hover:shadow-lg"
           style={textStyle}
         >
           Send
