@@ -27,6 +27,8 @@ export default {
         cardHeaderMain: "#8A63AD",
         worksFirst: "#613886",
         worksSecond: "#7A00E5",
+        footerFirst: "#450082",
+        footerSecond: "#007599",
       },
     },
     fontFamily: {
