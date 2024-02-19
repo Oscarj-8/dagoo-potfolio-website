@@ -24,19 +24,19 @@ function Footer() {
           <div className="flex justify-center gap-6">
             <FontAwesomeIcon
               icon={faTiktok}
-              className="text-xl xl:text-2xl cursor-pointer"
+              className="text-2xl xl:text-3xl cursor-pointer"
             />
             <FontAwesomeIcon
               icon={faInstagram}
-              className="text-xl xl:text-2xl cursor-pointer"
+              className="text-2xl xl:text-3xl cursor-pointer"
             />
             <FontAwesomeIcon
               icon={faFacebook}
-              className="text-xl xl:text-2xl cursor-pointer"
+              className="text-2xl xl:text-3xl cursor-pointer"
             />
             <FontAwesomeIcon
               icon={faLinkedin}
-              className="text-xl xl:text-2xl cursor-pointer"
+              className="text-2xl xl:text-3xl cursor-pointer"
             />
           </div>
         </div>
