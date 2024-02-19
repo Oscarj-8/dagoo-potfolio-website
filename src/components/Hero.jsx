@@ -1,5 +1,6 @@
 import Nav from "./Nav";
 import heroBg from "../images/heroBg.png";
+import CallUs from "./CallUs";
 function Hero({ scrollToSection }) {
   return (
     <div
@@ -34,6 +35,7 @@ function Hero({ scrollToSection }) {
             Contact us
           </button>
         </div>
+        <CallUs />
       </div>
     </div>
   );
