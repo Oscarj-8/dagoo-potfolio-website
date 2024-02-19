@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
 @layer utilities {
   .boxshadow {
     box-shadow: 0 0 100px #34c1ed, 0 0 50px #613886, 0 0 100px #34c1ed,
