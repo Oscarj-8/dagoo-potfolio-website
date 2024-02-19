@@ -34,7 +34,7 @@ function About() {
             unique character and target audience, whether they offer products or
             services.
           </p>
-          <button className="text bg-gradient-to-r from-mainColor to-secondaryColor w-[9em] p-[10px] rounded-3xl drop-shadow-[0px_5px_2px_rgba(0,0,0,0.15)] transition-all duration-500 ease-in-out hover:drop-shadow-none ">
+          <button className="reflect bg-gradient-to-r from-mainColor to-secondaryColor w-[9em] p-[10px] rounded-3xl drop-shadow-[0px_5px_2px_rgba(0,0,0,0.15)] transition-all duration-500 ease-in-out hover:drop-shadow-none ">
             Contact us
           </button>
         </div>
