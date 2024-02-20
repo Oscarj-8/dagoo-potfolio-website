@@ -9,6 +9,7 @@ function About() {
     <div
       className="relative w-full h-screen bg-center bg-cover -mt-[5em] flex items-center justify-center"
       style={{ backgroundImage: `url(${Vector}` }}
+      id="about"
     >
       <marquee
         className="absolute top-[6em] lg:top-[2em] xl:top-[5em] text-[3em] lg:text-[5em] font-bold z-0 text-white/15"

@@ -13,13 +13,13 @@ function HomePage() {
       className="flex flex-col items-center
     "
     >
-      <Hero />
-      <ClientsGlass />
+      <Hero id="hero" />
+      <ClientsGlass id="clients" />
       <BackToTop />
-      <Works />
-      <Services />
-      <About />
-      <ContactUs />
+      <Works id="works" />
+      <Services id="services" />
+      <About id="about" />
+      <ContactUs id="contact" />
       <Footer />
     </div>
   );

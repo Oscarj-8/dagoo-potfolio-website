@@ -39,7 +39,10 @@ function Services() {
   }, []);
 
   return (
-    <div className="flex flex-col p-2 my-4 justify-center items-center gap-8 overflow-hidden bg-cover bg-center">
+    <div
+      className="flex flex-col p-2 my-4 justify-center items-center gap-8 overflow-hidden bg-cover bg-center"
+      id="services"
+    >
       <div>
         <h1 className="text-2xl font-semibold lg:text-3xl text-mainColor">
           Our services

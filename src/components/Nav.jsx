@@ -1,7 +1,7 @@
 import dagooLogo from "../images/dagoo.png";
 import { useState } from "react";
 
-function Nav() {
+function Nav({ scrollToSection }) {
   const [navIsOpen, setNavIsOpen] = useState(false);
 
   return (
@@ -39,7 +39,9 @@ function Nav() {
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            onClick={() => setNavIsOpen(false)}
+            onClick={() => {
+              setNavIsOpen(false);
+            }}
           >
             <path
               strokeLinecap="round"
@@ -50,49 +52,109 @@ function Nav() {
           </svg>
 
           <ul className="flex flex-col gap-4 text-xl text-center mt-8">
-            <li onClick={() => setNavIsOpen(false)}>Home</li>
-            <li onClick={() => setNavIsOpen(false)}>Clients</li>
-            <li onClick={() => setNavIsOpen(false)}>Works</li>
-            <li onClick={() => setNavIsOpen(false)}>Services</li>
-            <li onClick={() => setNavIsOpen(false)}>About</li>
-            <li onClick={() => setNavIsOpen(false)}>Contact</li>
+            <li
+              onClick={() => {
+                setNavIsOpen(false);
+                scrollToSection("hero");
+              }}
+            >
+              Home
+            </li>
+            <li
+              onClick={() => {
+                setNavIsOpen(false);
+                scrollToSection("clients");
+              }}
+            >
+              Clients
+            </li>
+            <li
+              onClick={() => {
+                setNavIsOpen(false);
+                scrollToSection("works");
+              }}
+            >
+              Works
+            </li>
+            <li
+              onClick={() => {
+                setNavIsOpen(false);
+                scrollToSection("services");
+              }}
+            >
+              Services
+            </li>
+            <li
+              onClick={() => {
+                setNavIsOpen(false);
+                scrollToSection("about");
+              }}
+            >
+              About
+            </li>
+            <li
+              onClick={() => {
+                setNavIsOpen(false);
+                scrollToSection("contact");
+              }}
+            >
+              Contact
+            </li>
           </ul>
         </div>
       </div>
       <ul className="hidden lg:flex text-white gap-8">
         <li
           className="hover:underline cursor-pointer"
-          onClick={() => setNavIsOpen(false)}
+          onClick={() => {
+            setNavIsOpen(false);
+            scrollToSection("hero");
+          }}
         >
           Home
         </li>
         <li
           className="hover:underline cursor-pointer"
-          onClick={() => setNavIsOpen(false)}
+          onClick={() => {
+            setNavIsOpen(false);
+            scrollToSection("clients");
+          }}
         >
           Clients
         </li>
         <li
           className="hover:underline cursor-pointer"
-          onClick={() => setNavIsOpen(false)}
+          onClick={() => {
+            setNavIsOpen(false);
+            scrollToSection("works");
+          }}
         >
           Works
         </li>
         <li
           className="hover:underline cursor-pointer"
-          onClick={() => setNavIsOpen(false)}
+          onClick={() => {
+            setNavIsOpen(false);
+            scrollToSection("services");
+          }}
         >
           Services
         </li>
         <li
           className="hover:underline cursor-pointer"
-          onClick={() => setNavIsOpen(false)}
+          onClick={() => {
+            setNavIsOpen(false);
+            scrollToSection("about");
+          }}
         >
           About
         </li>
         <li
           className="hover:underline cursor-pointer"
-          onClick={() => setNavIsOpen(false)}
+          onClick={() => {
+            setNavIsOpen(false);
+            scrollToSection("contact");
+          }}
         >
           Contact
         </li>
