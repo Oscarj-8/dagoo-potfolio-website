@@ -1,12 +1,21 @@
 import Nav from "./Nav";
 import heroBg from "../images/heroBg.png";
 import CallUs from "./CallUs";
-function Hero({ scrollToSection }) {
+
+const scrollToSection = (id) => {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth", duration: 5000 });
+  }
+};
+
+function Hero() {
   return (
     <div
       className="flex flex-col items-center
        h-screen bg-cover bg-center w-full overflow-hidden"
       style={{ backgroundImage: `url(${heroBg})` }}
+      id="hero"
     >
       <div className="absolute inset-0 bg-mainColor opacity-65 h-screen"></div>
       <Nav scrollToSection={scrollToSection} />
