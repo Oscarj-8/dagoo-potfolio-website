@@ -35,6 +35,9 @@ const ContactUs = () => {
     } else {
       setEmptyField(false);
       setSubmissionSuccess(true);
+      setTimeout(() => {
+        setSubmissionSuccess(false);
+      }, 3000);
       setFormData({
         fullName: "",
         email: "",
