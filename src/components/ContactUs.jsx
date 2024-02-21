@@ -25,25 +25,25 @@ const ContactUs = () => {
     setFormData({ ...formData, [id]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const { fullName, email, pNumber, message } = formData;
+
     if (!fullName || !email || !pNumber || !message) {
       setEmptyField(true);
       setSubmissionSuccess(false);
       return;
-    } else {
-      setEmptyField(false);
-      setSubmissionSuccess(true);
-      setTimeout(() => {
-        setSubmissionSuccess(false);
-      }, 3000);
-      setFormData({
-        fullName: "",
-        email: "",
-        pNumber: "",
-        message: "",
+    }
+    try {
+      const res = await fetch("/submit-form", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
       });
+    } catch (error) {
+      console.error("Error occured while submitting form:", error);
     }
   };
 
