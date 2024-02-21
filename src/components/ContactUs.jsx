@@ -19,7 +19,7 @@ const ContactUs = () => {
     message: "",
   });
   const [emptyField, setEmptyField] = useState(false);
-  const [submissionSuccess, setSubmissionSuccess] = useState(false);
+  const [submissionSuccess, setSubmissionSuccess] = useState(true);
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormData({ ...formData, [id]: value });
@@ -30,6 +30,7 @@ const ContactUs = () => {
     const { fullName, email, pNumber, message } = formData;
     if (!fullName || !email || !pNumber || !message) {
       setEmptyField(true);
+      setSubmissionSuccess(false);
       return;
     } else {
       setEmptyField(false);
@@ -179,6 +180,13 @@ const ContactUs = () => {
           >
             Send
           </button>
+          {submissionSuccess && (
+            <p className="transition-all duration-500 ease-in-out w-full flex justify-between text-xs text-green-700 p-2 rounded-md bg-green-200 leading-5 tracking-wide shadow-2xl">
+              Thank you for sending us your message, your message has been
+              successfully received. We will get back to you as soon as
+              possible.
+            </p>
+          )}
         </form>
       </div>
     </div>
