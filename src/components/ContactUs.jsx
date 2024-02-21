@@ -120,7 +120,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-full max-w-[700px] bg-gradient-to-br from-[#8239C3] to-[#16A2CE] rounded-md p-3 gap-4 shadow-lg md:p-4">
+      <div className="flex flex-col w-full max-w-[700px] bg-gradient-to-br from-[#8239C3] to-[#16A2CE] rounded-md p-3 gap-4 drop-shadow-[0_4px_5px_rgba(0,0,0,0.5)] md:p-4">
         <h2
           className="text-xl md:text-3xl text-white font-semibold"
           style={textStyle}
