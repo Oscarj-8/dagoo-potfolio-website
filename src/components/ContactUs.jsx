@@ -19,7 +19,7 @@ const ContactUs = () => {
     message: "",
   });
   const [emptyField, setEmptyField] = useState(false);
-
+  const [submissionSuccess, setSubmissionSuccess] = useState(false);
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormData({ ...formData, [id]: value });
@@ -33,7 +33,13 @@ const ContactUs = () => {
       return;
     } else {
       setEmptyField(false);
-      console.log(formData);
+      setSubmissionSuccess(true);
+      setFormData({
+        fullName: "",
+        email: "",
+        pNumber: "",
+        message: "",
+      });
     }
   };
 
@@ -118,8 +124,8 @@ const ContactUs = () => {
           Get in touch
         </h2>
         {emptyField && (
-          <p className="transition-all duration-500 ease-in-out w-full flex justify-between text-sm text-red-700 p-2 rounded-md bg-red-200 font-medium">
-            Please fill all the fields{" "}
+          <p className="transition-all duration-500 ease-in-out w-full flex justify-between text-xs text-red-700 p-2 rounded-md bg-red-200 font-medium">
+            Please fill all the fields
             <span
               className="scale-150 cursor-pointer"
               onClick={() => setEmptyField(false)}
@@ -168,7 +174,7 @@ const ContactUs = () => {
           <button
             type="submit"
             variant="contained"
-            className="bg-[#8239C3] p-2 text-white tracking-wider rounded-md font-semibold text-xl w-full shadow-none hover:shadow-lg"
+            className="bg-[#8239C3] p-2 text-white tracking-wider rounded-md shadow-xl font-semibold text-xl w-full hover:shadow-none"
             style={textStyle}
           >
             Send
