@@ -13,11 +13,12 @@ const textStyle = {
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
-    name: "",
+    fullName: "",
     email: "",
     pNumber: "",
     message: "",
   });
+  const [emptyField, setEmptyField] = useState(false);
 
   const handleChange = (e) => {
     const { id, value } = e.target;
@@ -26,7 +27,14 @@ const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
+    const { fullName, email, pNumber, message } = formData;
+    if (!fullName || !email || !pNumber || !message) {
+      setEmptyField(true);
+      return;
+    } else {
+      setEmptyField(false);
+      console.log(formData);
+    }
   };
 
   return (
@@ -109,16 +117,27 @@ const ContactUs = () => {
         >
           Get in touch
         </h2>
+        {emptyField && (
+          <p className="transition-all duration-500 ease-in-out w-full flex justify-between text-sm text-red-700 p-2 rounded-md bg-red-200 font-medium">
+            Please fill all the fields{" "}
+            <span
+              className="scale-150 cursor-pointer"
+              onClick={() => setEmptyField(false)}
+            >
+              &times;
+            </span>
+          </p>
+        )}
         <form
           className="flex flex-col gap-4 mb-2 justify-center"
           onSubmit={handleSubmit}
         >
           <input
-            id="name"
+            id="fullName"
             className="p-3 w-full rounded-md"
             placeholder="Enter your name here"
             type="text"
-            value={formData.name}
+            value={formData.fullName}
             onChange={handleChange}
           />
           <input
@@ -154,7 +173,6 @@ const ContactUs = () => {
           >
             Send
           </button>
-          {formData.message}
         </form>
       </div>
     </div>

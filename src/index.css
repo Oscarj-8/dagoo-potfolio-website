@@ -90,3 +90,23 @@ body::-webkit-scrollbar {
 .shake {
   animation: shake 0.5s infinite;
 }
+
+.text-animation {
+  background: linear-gradient(to right, #8b23eb, #fff 35%, #34c1ed);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 5s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 75%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 70%;
+  }
+}

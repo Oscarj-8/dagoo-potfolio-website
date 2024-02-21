@@ -26,7 +26,7 @@ function Hero() {
           </span>
         </div>
         <div className="flex flex-col items-center text-center gap-4 p-4">
-          <h1 className="text-4xl text-white font-bold lg:text-5xl xl:text-6xl">
+          <h1 className="text-animation text-4xl text-white font-bold lg:text-5xl xl:text-6xl">
             Your Path to Digital Excellence
           </h1>
           <p className="text-[#E8E8E8]">
