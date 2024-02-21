@@ -19,7 +19,7 @@ const ContactUs = () => {
     message: "",
   });
   const [emptyField, setEmptyField] = useState(false);
-  const [submissionSuccess, setSubmissionSuccess] = useState(true);
+  const [submissionSuccess, setSubmissionSuccess] = useState(false);
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormData({ ...formData, [id]: value });
@@ -125,7 +125,7 @@ const ContactUs = () => {
           Get in touch
         </h2>
         {emptyField && (
-          <p className="transition-all duration-500 ease-in-out w-full flex justify-between text-xs text-red-700 p-2 rounded-md bg-red-200 font-medium">
+          <p className="transition-all duration-500 ease-in-out w-full flex justify-between text-xs text-red-700 p-2 rounded-md bg-red-200 tracking-wide">
             Please fill all the fields
             <span
               className="scale-150 cursor-pointer"
