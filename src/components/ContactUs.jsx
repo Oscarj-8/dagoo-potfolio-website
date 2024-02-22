@@ -20,6 +20,7 @@ const ContactUs = () => {
   });
   const [emptyField, setEmptyField] = useState(false);
   const [submissionSuccess, setSubmissionSuccess] = useState(null);
+  const [loading, setLoading] = useState(false);
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormData({ ...formData, [id]: value });
@@ -35,6 +36,7 @@ const ContactUs = () => {
       return;
     }
     try {
+      setLoading(true);
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: {
@@ -47,10 +49,12 @@ const ContactUs = () => {
         setSubmissionSuccess("successfull");
         setTimeout(() => {
           setSubmissionSuccess(null);
-        }, 5000);
+        }, 8000);
         resetForm();
+        setLoading(false);
       } else {
         setSubmissionSuccess("failed");
+        setLoading(false);
       }
     } catch (error) {
       console.error("Error occured while submitting form:", error);
@@ -199,8 +203,9 @@ const ContactUs = () => {
             variant="contained"
             className="bg-[#8239C3] p-2 text-white tracking-wider rounded-md shadow-xl font-semibold text-xl w-full hover:shadow-none"
             style={textStyle}
+            disabled={loading}
           >
-            Send
+            {loading ? "Sending..." : "Send"}
           </button>
           {submissionSuccess === "successfull" && (
             <p className="transition-all duration-500 ease-in-out w-full flex justify-between text-xs text-green-700 p-2 rounded-md bg-green-200 leading-5 tracking-wide shadow-2xl">
