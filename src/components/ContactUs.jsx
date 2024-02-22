@@ -19,7 +19,7 @@ const ContactUs = () => {
     message: "",
   });
   const [emptyField, setEmptyField] = useState(false);
-  const [submissionSuccess, setSubmissionSuccess] = useState(false);
+  const [submissionSuccess, setSubmissionSuccess] = useState(null);
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormData({ ...formData, [id]: value });
@@ -42,6 +42,15 @@ const ContactUs = () => {
         },
         body: JSON.stringify(formData),
       });
+
+      if (res.ok) {
+        setSubmissionSuccess("successfull");
+        setTimeout(() => {
+          setSubmissionSuccess("failed");
+        }, 5000);
+      } else {
+        setSubmissionSuccess("failed");
+      }
     } catch (error) {
       console.error("Error occured while submitting form:", error);
     }
@@ -183,11 +192,16 @@ const ContactUs = () => {
           >
             Send
           </button>
-          {submissionSuccess && (
+          {submissionSuccess === "successfull" && (
             <p className="transition-all duration-500 ease-in-out w-full flex justify-between text-xs text-green-700 p-2 rounded-md bg-green-200 leading-5 tracking-wide shadow-2xl">
               Thank you for sending us your message, your message has been
               successfully received. We will get back to you as soon as
               possible.
+            </p>
+          )}
+          {submissionSuccess === "failed" && (
+            <p className="transition-all duration-500 ease-in-out w-full flex justify-between text-xs text-red-700 p-2 rounded-md bg-red-200 leading-5 tracking-wide shadow-2xl">
+              There was an error sending your message, please try again later
             </p>
           )}
         </form>
