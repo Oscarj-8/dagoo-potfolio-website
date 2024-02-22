@@ -50,9 +50,10 @@
 // });
 
 import nodemailer from "nodemailer";
+
 const emailPassword = process.env.EMAIL_PASS;
 
-module.exports = async (req, res) => {
+export default async (req, res) => {
   const { fullName, pNumber, email, message } = req.body;
 
   if (req.method === "POST") {
@@ -68,7 +69,7 @@ module.exports = async (req, res) => {
       const mailOptions = {
         from: email,
         to: "mabdulahi954@gmail.com",
-        subject: subject,
+        subject: "Subject of the email", // Add subject here
         text: `FullName: ${fullName},
         Email: ${email},
         Phone number: ${pNumber},
