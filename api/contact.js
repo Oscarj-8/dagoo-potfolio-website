@@ -49,7 +49,7 @@
 //   });
 // });
 
-const nodemailer = require("nodemailer");
+import nodemailer from "nodemailer";
 const emailPassword = process.env.EMAIL_PASS;
 
 module.exports = async (req, res) => {
@@ -70,8 +70,8 @@ module.exports = async (req, res) => {
         to: "mabdulahi954@gmail.com",
         subject: subject,
         text: `FullName: ${fullName},
-        Phone number: ${pNumber},
         Email: ${email},
+        Phone number: ${pNumber},
         Message: ${message}`,
       };
 
