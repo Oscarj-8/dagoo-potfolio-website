@@ -19,21 +19,31 @@ const ContactUs = () => {
     message: "",
   });
   const [emptyField, setEmptyField] = useState(false);
-
+  const [submissionSuccess, setSubmissionSuccess] = useState(false);
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormData({ ...formData, [id]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const { fullName, email, pNumber, message } = formData;
+
     if (!fullName || !email || !pNumber || !message) {
       setEmptyField(true);
+      setSubmissionSuccess(false);
       return;
-    } else {
-      setEmptyField(false);
-      console.log(formData);
+    }
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+    } catch (error) {
+      console.error("Error occured while submitting form:", error);
     }
   };
 
@@ -110,7 +120,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-full max-w-[700px] bg-gradient-to-br from-[#8239C3] to-[#16A2CE] rounded-md p-3 gap-4 shadow-lg md:p-4">
+      <div className="flex flex-col w-full max-w-[700px] bg-gradient-to-br from-[#8239C3] to-[#16A2CE] rounded-md p-3 gap-4 drop-shadow-[0_4px_5px_rgba(0,0,0,0.5)] md:p-4">
         <h2
           className="text-xl md:text-3xl text-white font-semibold"
           style={textStyle}
@@ -118,8 +128,8 @@ const ContactUs = () => {
           Get in touch
         </h2>
         {emptyField && (
-          <p className="transition-all duration-500 ease-in-out w-full flex justify-between text-sm text-red-700 p-2 rounded-md bg-red-200 font-medium">
-            Please fill all the fields{" "}
+          <p className="transition-all duration-500 ease-in-out w-full flex justify-between text-xs text-red-700 p-2 rounded-md bg-red-200 tracking-wide">
+            Please fill all the fields
             <span
               className="scale-150 cursor-pointer"
               onClick={() => setEmptyField(false)}
@@ -168,11 +178,18 @@ const ContactUs = () => {
           <button
             type="submit"
             variant="contained"
-            className="bg-[#8239C3] p-2 text-white tracking-wider rounded-md font-semibold text-xl w-full shadow-none hover:shadow-lg"
+            className="bg-[#8239C3] p-2 text-white tracking-wider rounded-md shadow-xl font-semibold text-xl w-full hover:shadow-none"
             style={textStyle}
           >
             Send
           </button>
+          {submissionSuccess && (
+            <p className="transition-all duration-500 ease-in-out w-full flex justify-between text-xs text-green-700 p-2 rounded-md bg-green-200 leading-5 tracking-wide shadow-2xl">
+              Thank you for sending us your message, your message has been
+              successfully received. We will get back to you as soon as
+              possible.
+            </p>
+          )}
         </form>
       </div>
     </div>
