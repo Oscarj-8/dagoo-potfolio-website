@@ -46,7 +46,7 @@ const ContactUs = () => {
       if (res.ok) {
         setSubmissionSuccess("successfull");
         setTimeout(() => {
-          setSubmissionSuccess("failed");
+          setSubmissionSuccess(null);
         }, 5000);
       } else {
         setSubmissionSuccess("failed");
