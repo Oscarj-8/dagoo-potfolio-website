@@ -48,12 +48,22 @@ const ContactUs = () => {
         setTimeout(() => {
           setSubmissionSuccess(null);
         }, 5000);
+        resetForm();
       } else {
         setSubmissionSuccess("failed");
       }
     } catch (error) {
       console.error("Error occured while submitting form:", error);
     }
+  };
+
+  const resetForm = () => {
+    setFormData({
+      fullName: "",
+      email: "",
+      pNumber: "",
+      message: "",
+    });
   };
 
   return (
