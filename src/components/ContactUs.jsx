@@ -35,7 +35,7 @@ const ContactUs = () => {
       return;
     }
     try {
-      const res = await fetch("http://localhost:3000/submit-form", {
+      const res = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
