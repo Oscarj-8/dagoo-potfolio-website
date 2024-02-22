@@ -201,7 +201,9 @@ const ContactUs = () => {
           <button
             type="submit"
             variant="contained"
-            className="bg-[#8239C3] p-2 text-white tracking-wider rounded-md shadow-xl font-semibold text-xl w-full hover:shadow-none"
+            className={`${
+              loading ? "bg-[#a641ff]" : "bg-[#8239C3]"
+            }  p-2 text-white tracking-wider rounded-md shadow-xl font-semibold text-xl w-full hover:shadow-none`}
             style={textStyle}
             disabled={loading}
           >
