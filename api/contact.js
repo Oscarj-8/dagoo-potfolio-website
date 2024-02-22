@@ -50,7 +50,7 @@
 // });
 
 const nodemailer = require("nodemailer");
-const emailPassword = process.env.EMAIL_PASSWORD;
+const emailPassword = process.env.EMAIL_PASS;
 
 module.exports = async (req, res) => {
   const { fullName, pNumber, email, message } = req.body;
