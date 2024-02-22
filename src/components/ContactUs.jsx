@@ -20,7 +20,7 @@ const ContactUs = () => {
   });
   const [emptyField, setEmptyField] = useState(false);
   const [submissionSuccess, setSubmissionSuccess] = useState(null);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormData({ ...formData, [id]: value });
@@ -201,14 +201,16 @@ const ContactUs = () => {
           <button
             type="submit"
             variant="contained"
-            className={`${
+            className={`flex items-center justify-center gap-2 ${
               loading ? "bg-[#a641ff]" : "bg-[#8239C3]"
             }  p-2 text-white tracking-wider rounded-md shadow-xl font-semibold text-xl w-full hover:shadow-none`}
             style={textStyle}
             disabled={loading}
           >
             {loading ? "Sending..." : "Send"}
+            {loading && <div class="loader"></div>}
           </button>
+
           {submissionSuccess === "successfull" && (
             <p className="transition-all duration-500 ease-in-out w-full flex justify-between text-sm text-green-700 p-2 rounded-md bg-green-200 leading-5 tracking-wide shadow-2xl">
               Thank you for sending us your message, your message has been
