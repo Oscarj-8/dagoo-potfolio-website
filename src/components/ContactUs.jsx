@@ -210,14 +210,14 @@ const ContactUs = () => {
             {loading ? "Sending..." : "Send"}
           </button>
           {submissionSuccess === "successfull" && (
-            <p className="transition-all duration-500 ease-in-out w-full flex justify-between text-xs text-green-700 p-2 rounded-md bg-green-200 leading-5 tracking-wide shadow-2xl">
+            <p className="transition-all duration-500 ease-in-out w-full flex justify-between text-sm text-green-700 p-2 rounded-md bg-green-200 leading-5 tracking-wide shadow-2xl">
               Thank you for sending us your message, your message has been
               successfully received. We will get back to you as soon as
               possible.
             </p>
           )}
           {submissionSuccess === "failed" && (
-            <p className="transition-all duration-500 ease-in-out w-full flex justify-between text-xs text-red-700 p-2 rounded-md bg-red-200 leading-5 tracking-wide shadow-2xl">
+            <p className="transition-all duration-500 ease-in-out w-full flex justify-between text-sm text-red-700 p-2 rounded-md bg-red-200 leading-5 tracking-wide shadow-2xl">
               There was an error sending your message, please try again later
             </p>
           )}
