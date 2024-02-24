@@ -205,7 +205,9 @@ const ContactUs = () => {
             type="submit"
             variant="contained"
             className={`flex items-center justify-center gap-2 ${
-              loading ? "bg-[#a641ff]" : "bg-[#8239C3]"
+              loading
+                ? "bg-[#a641ff] cursor-progress"
+                : "bg-[#8239C3] cursor-pointer"
             }  p-2 text-white tracking-wider rounded-md shadow-xl font-semibold text-xl w-full hover:shadow-none`}
             style={textStyle}
             disabled={loading}
