@@ -85,18 +85,18 @@ const ContactUs = () => {
           concerns please contact us. We are available to answer your questions
           and provide assistance.
         </p>
-        <div className="grid grid-cols-2 md:grid-cols-2 gap-4 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
           <div className="flex w-full cursor-pointer text-left gap-4 hover:scale-105 transition-all duration-500 ease-in-out">
             <FontAwesomeIcon icon={faEnvelope} className="h-8 text-mainColor" />
-            <div className="text-[#323232] ">
+            <div className="text-[#323232]">
               <h1
                 className="text-xl md:text-2xl font-semibold"
                 style={textStyle}
               >
                 Email
               </h1>
-              <p>h1@yahoo.com</p>
-              <p>h1@yahoo.com</p>
+              <p>dagooincorporated@gmail.com</p>
+              <p>Addis Ababa, Ethiopia</p>
             </div>
           </div>
           <div className="flex w-full cursor-pointer text-left gap-4 hover:scale-105 transition-all duration-500 ease-in-out">
@@ -111,8 +111,8 @@ const ContactUs = () => {
               >
                 Address
               </h1>
-              <p>Somewhere here</p>
-              <p>bole atlas, Addis Ababa.</p>
+              <p>bole atlas in front of sapphire addis hotel</p>
+              <p>Addis Ababa, Ethiopia</p>
             </div>
           </div>
           <div className="flex w-full cursor-pointer text-left gap-4 hover:scale-105 transition-all duration-500 ease-in-out">
@@ -124,8 +124,8 @@ const ContactUs = () => {
               >
                 Phone
               </h1>
-              <p>Mobile: (555) 555-5555</p>
-              <p>fax: (555) 555-5555</p>
+              <p>Mobile 1: (+251) 919 417 797 </p>
+              <p>Mobile 2: (+251) 944 355 364 </p>
             </div>
           </div>
           <div className="flex w-full cursor-pointer text-left gap-4 hover:scale-105 transition-all duration-500 ease-in-out">
