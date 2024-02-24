@@ -105,7 +105,7 @@ function Nav({ scrollToSection }) {
       </div>
       <ul className="hidden lg:flex text-white gap-8">
         <li
-          className="hover:underline cursor-pointer"
+          className="nav-links relative cursor-pointer"
           onClick={() => {
             scrollToSection("hero");
           }}
@@ -113,7 +113,7 @@ function Nav({ scrollToSection }) {
           Home
         </li>
         <li
-          className="hover:underline cursor-pointer"
+          className="nav-links relative cursor-pointer"
           onClick={() => {
             scrollToSection("clients");
           }}
@@ -121,7 +121,7 @@ function Nav({ scrollToSection }) {
           Clients
         </li>
         <li
-          className="hover:underline cursor-pointer"
+          className="nav-links relative cursor-pointer"
           onClick={() => {
             scrollToSection("works");
           }}
@@ -129,7 +129,7 @@ function Nav({ scrollToSection }) {
           Works
         </li>
         <li
-          className="hover:underline cursor-pointer"
+          className="nav-links relative cursor-pointer"
           onClick={() => {
             scrollToSection("services");
           }}
@@ -137,7 +137,7 @@ function Nav({ scrollToSection }) {
           Services
         </li>
         <li
-          className="hover:underline cursor-pointer"
+          className="nav-links relative cursor-pointer"
           onClick={() => {
             scrollToSection("about");
           }}
@@ -145,7 +145,7 @@ function Nav({ scrollToSection }) {
           About
         </li>
         <li
-          className="hover:underline cursor-pointer"
+          className="nav-links relative cursor-pointer"
           onClick={() => {
             scrollToSection("contact");
           }}
