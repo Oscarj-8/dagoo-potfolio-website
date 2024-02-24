@@ -116,7 +116,10 @@ const ContactUs = () => {
             </div>
           </div>
           <div className="flex w-full cursor-pointer text-left gap-4 hover:scale-105 transition-all duration-500 ease-in-out">
-            <FontAwesomeIcon icon={faPhone} className="h-8 text-mainColor" />
+            <FontAwesomeIcon
+              icon={faPhone}
+              className="h-8 mt-[4px] text-mainColor"
+            />
             <div className="text-[#323232] ">
               <h1
                 className="text-xl md:text-2xl font-semibold"
