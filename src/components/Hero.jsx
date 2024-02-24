@@ -1,6 +1,12 @@
 import Nav from "./Nav";
 import heroBg from "../images/heroBg.png";
 import CallUs from "./CallUs";
+import IconButton from "@mui/material/IconButton";
+import CloseIcon from "@mui/icons-material/Close";
+import { Button } from "@mui/material";
+import Typography from "@mui/material/Typography";
+import ReusableModal from "./ReusableModal";
+import { useState } from "react";
 
 const scrollToSection = (id) => {
   const element = document.getElementById(id);
@@ -9,7 +15,9 @@ const scrollToSection = (id) => {
   }
 };
 
-function Hero() {
+export default function Hero() {
+  const [open, setOpen] = useState(false);
+  const handleClose = () => setOpen(false);
   return (
     <div
       className="flex flex-col items-center
@@ -40,13 +48,56 @@ function Hero() {
           <button className="bg-gradient-to-r from-mainColor to-secondaryColor w-[9em] p-[10px] rounded-3xl shadow-xl transition-all duration-500 ease-in-out hover:shadow-2xl">
             See our works
           </button>
-          <button className=" button border-2 border-secondaryColor w-[9em] p-2 rounded-3xl shadow-xl transition-all duration-500 ease-in-out">
+          <button
+            className=" button border-2 border-secondaryColor w-[9em] p-2 rounded-3xl shadow-xl transition-all duration-500 ease-in-out"
+            onClick={() => setOpen(true)}
+          >
             Contact us
           </button>
         </div>
         {/* <CallUs /> */}
+        <ReusableModal
+          backgroundColor="linear-gradient(45deg,  #613886 90%, #34C1ED 60%)"
+          open={open}
+          onClose={handleClose}
+        >
+          <div className="flex flex-col items-center min-w-[300px] max-w-[500px] text-white gap-2">
+            <div className="w-full flex justify-between items-center ">
+              <Typography
+                id="modal-modal-title"
+                variant="h6"
+                component="h2"
+                className="text-left w-full"
+              >
+                Our contact information
+              </Typography>
+              <IconButton aria-label="close">
+                <CloseIcon
+                  className="text-white"
+                  onClick={() => setOpen(false)}
+                />
+              </IconButton>{" "}
+            </div>
+            <hr className="bg-gray-500 w-full" />
+            <Typography
+              className="w-full flex flex-col gap-2"
+              id="modal-modal-description"
+              sx={{ mt: 2 }}
+            >
+              <span>Mobile 1: 0919417797</span>
+              <span>Mobile 1: 0919417797</span>
+              <span>Email: dagooincorporated@gmail.com</span>
+            </Typography>
+            <Button
+              variant="contained"
+              className="w-[100px] bg-blue-700"
+              onClick={handleClose}
+            >
+              Ok
+            </Button>
+          </div>
+        </ReusableModal>
       </div>
     </div>
   );
 }
-export default Hero;
