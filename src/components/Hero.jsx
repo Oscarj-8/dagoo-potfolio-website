@@ -85,7 +85,7 @@ export default function Hero() {
               </p>
               <p className="flex gap-2">
                 <span className="font-semibold">Mobile 2:</span>
-                0919417797
+                0944355364
               </p>
               <p className="flex gap-2">
                 <span className="font-semibold">Email:</span>
