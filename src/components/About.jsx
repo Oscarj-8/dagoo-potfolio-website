@@ -12,7 +12,7 @@ function About() {
       id="about"
     >
       <marquee
-        className="absolute top-[6em] lg:top-[2em] xl:top-[5em] text-[3em] lg:text-[5em] font-bold z-0 text-white/15"
+        className="animate-pulse absolute top-[6em] lg:top-[2em] xl:top-[5em] text-[3em] lg:text-[5em] font-bold z-0 text-white/15"
         scrollamount="5"
         direction="right"
       >

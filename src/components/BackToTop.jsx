@@ -27,7 +27,7 @@ const BackToTop = () => {
   return (
     <div
       onClick={scrollToTop}
-      className={`fixed bottom-4 right-4 text-white bg-gradient-to-br from-footerFirst to-footerSecond flex p-4 w-14 items-center justify-center rounded-full drop-shadow-[0_3px_3px_rgba(0,0,0,0.25)] transition-all duration-500 ease-in-out active:scale-110  ${
+      className={`animate-bounce fixed bottom-4 right-4 text-white bg-gradient-to-br from-footerFirst to-footerSecond flex p-4 w-14 items-center justify-center rounded-full drop-shadow-[0_3px_3px_rgba(0,0,0,0.25)] transition-all duration-500 ease-in-out active:scale-110  ${
         isVisible ? "show" : "hidden"
       } z-50`}
     >
