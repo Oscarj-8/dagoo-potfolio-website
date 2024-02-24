@@ -75,7 +75,7 @@ const ContactUs = () => {
       className="flex flex-col w-full p-4 items-center justify-between gap-4 lg:flex-row max-w-[1500px] mx-auto mb-8"
       id="contact"
     >
-      <div className="text-center lg:text-left w-full flex flex-col gap-4">
+      <div className="text-center lg:text-left w-full flex flex-col gap-4 ">
         <h1 className="text-2xl font-semibold lg:text-3xl text-mainColor">
           Contact us
         </h1>
