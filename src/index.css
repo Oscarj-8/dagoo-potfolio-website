@@ -112,7 +112,7 @@ body::-webkit-scrollbar {
   height: 0.15rem;
   bottom: -2px;
   left: 0;
-  background-image: linear-gradient(to right, #670bbd, #68cceb);
+  background-color: #68cceb;
   border-radius: 0.5em;
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
