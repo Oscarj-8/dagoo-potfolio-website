@@ -3,7 +3,6 @@ import heroBg from "../images/heroBg.png";
 import CallUs from "./CallUs";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
-import { Button } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import ReusableModal from "./ReusableModal";
 import { useState } from "react";
@@ -55,7 +54,6 @@ export default function Hero() {
             Contact us
           </button>
         </div>
-        {/* <CallUs /> */}
         <ReusableModal
           backgroundColor="linear-gradient(45deg,  #613886 90%, #34C1ED 60%)"
           open={open}
@@ -72,10 +70,7 @@ export default function Hero() {
                 Our contact information
               </Typography>
               <IconButton aria-label="close">
-                <CloseIcon
-                  className="text-white"
-                  onClick={() => setOpen(false)}
-                />
+                <CloseIcon className="text-white" onClick={handleClose} />
               </IconButton>{" "}
             </div>
             <hr className="bg-gray-500 w-full" />
@@ -84,17 +79,20 @@ export default function Hero() {
               id="modal-modal-description"
               sx={{ mt: 2 }}
             >
-              <span>Mobile 1: 0919417797</span>
-              <span>Mobile 1: 0919417797</span>
-              <span>Email: dagooincorporated@gmail.com</span>
+              <p className="flex gap-2">
+                <span className="font-semibold">Mobile 1:</span>
+                0919417797
+              </p>
+              <p className="flex gap-2">
+                <span className="font-semibold">Mobile 2:</span>
+                0919417797
+              </p>
+              <p className="flex gap-2">
+                <span className="font-semibold">Email:</span>
+                dagooincorporated@gmail.com
+              </p>
             </Typography>
-            <Button
-              variant="contained"
-              className="w-[100px] bg-blue-700"
-              onClick={handleClose}
-            >
-              Ok
-            </Button>
+            <CallUs />
           </div>
         </ReusableModal>
       </div>
