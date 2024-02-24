@@ -107,7 +107,6 @@ function Nav({ scrollToSection }) {
         <li
           className="hover:underline cursor-pointer"
           onClick={() => {
-            setNavIsOpen(false);
             scrollToSection("hero");
           }}
         >
@@ -116,7 +115,6 @@ function Nav({ scrollToSection }) {
         <li
           className="hover:underline cursor-pointer"
           onClick={() => {
-            setNavIsOpen(false);
             scrollToSection("clients");
           }}
         >
@@ -125,7 +123,6 @@ function Nav({ scrollToSection }) {
         <li
           className="hover:underline cursor-pointer"
           onClick={() => {
-            setNavIsOpen(false);
             scrollToSection("works");
           }}
         >
@@ -134,7 +131,6 @@ function Nav({ scrollToSection }) {
         <li
           className="hover:underline cursor-pointer"
           onClick={() => {
-            setNavIsOpen(false);
             scrollToSection("services");
           }}
         >
@@ -143,7 +139,6 @@ function Nav({ scrollToSection }) {
         <li
           className="hover:underline cursor-pointer"
           onClick={() => {
-            setNavIsOpen(false);
             scrollToSection("about");
           }}
         >
@@ -152,7 +147,6 @@ function Nav({ scrollToSection }) {
         <li
           className="hover:underline cursor-pointer"
           onClick={() => {
-            setNavIsOpen(false);
             scrollToSection("contact");
           }}
         >
