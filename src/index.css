@@ -121,3 +121,15 @@ body::-webkit-scrollbar {
 .nav-links:hover::after {
   transform: scaleX(1);
 }
+
+.hasline::after {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 20px;
+  transform: rotate(-2deg);
+  border-bottom: solid 5px #68cceb;
+  left: 0;
+  bottom: -10px;
+  border-radius: 90%;
+}

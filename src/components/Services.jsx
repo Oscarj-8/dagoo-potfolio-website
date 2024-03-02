@@ -43,9 +43,9 @@ function Services() {
       className="flex flex-col p-2 my-4 justify-center items-center gap-8 overflow-hidden bg-cover bg-center"
       id="services"
     >
-      <div>
+      <div className="relative">
         <h1 className="text-2xl font-semibold lg:text-3xl text-mainColor">
-          Our services
+          Our <span className="relative hasline"> services</span>
         </h1>
       </div>
       <div className="flex flex-wrap items-stretch justify-center gap-8 mx-[0.5em]">
