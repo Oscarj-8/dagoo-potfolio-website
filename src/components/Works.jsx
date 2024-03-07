@@ -13,7 +13,7 @@ function Works() {
           <p className="text-white/80 text-lg">Here are some of our works</p>
         </div>
         <div className="flex flex-wrap gap-14 justify-center z-10">
-          <div className="card  transition-all duration-500 ease-in-out cursor-pointer hover:shadow-2xl flex flex-col w-80  rounded-2xl h-[28em] overflow-hidden">
+          <div className="card relative transition-all duration-500 ease-in-out cursor-pointer hover:shadow-2xl flex flex-col w-80  rounded-2xl h-[28em] overflow-hidden">
             <div className="bg-gradient-to-r from-secondaryColor to-cardHeaderMain rounded-t-2xl p-3 text-white">
               <h1 className="font-medium text-lg">Graphic Design</h1>
               <p className="font-light">Fresh Bites Cathering</p>
@@ -25,7 +25,7 @@ function Works() {
                 className="h-full transition-all duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="absolute mt-[406px] flex flex-col py-2 px-4 bg-black/40 backdrop-blur-sm rounded-b-2xl  w-80 ">
+            <div className="absolute mt-[404px] flex flex-col py-2 px-4 bg-black/40 backdrop-blur-sm rounded-b-2xl  w-80 ">
               <h2 className="font-medium text-lg text-secondaryColor ">
                 Client
               </h2>
@@ -44,7 +44,7 @@ function Works() {
                 className="h-full transition-all duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="absolute mt-[406px] flex flex-col py-2 px-4 bg-black/40 backdrop-blur-sm rounded-b-2xl  w-80 ">
+            <div className="absolute mt-[404px] flex flex-col py-2 px-4 bg-black/40 backdrop-blur-sm rounded-b-2xl  w-80 ">
               <h2 className="font-medium text-lg text-secondaryColor ">
                 Client
               </h2>
@@ -63,7 +63,7 @@ function Works() {
                 className="h-full transition-all duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="absolute mt-[406px] flex flex-col py-2 px-4 bg-black/40 backdrop-blur-sm rounded-b-2xl  w-80 ">
+            <div className="absolute mt-[404px] flex flex-col py-2 px-4 bg-black/40 backdrop-blur-sm rounded-b-2xl  w-80 ">
               <h2 className="font-medium text-lg text-secondaryColor ">
                 Client
               </h2>
@@ -82,7 +82,7 @@ function Works() {
                 className="h-full transition-all duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="absolute mt-[406px] flex flex-col py-2 px-4 bg-black/40 backdrop-blur-sm rounded-b-2xl  w-80 ">
+            <div className="absolute mt-[404px] flex flex-col py-2 px-4 bg-black/40 backdrop-blur-sm rounded-b-2xl  w-80 ">
               <h2 className="font-medium text-lg text-secondaryColor ">
                 Client
               </h2>
@@ -101,7 +101,7 @@ function Works() {
                 className="h-full transition-all duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="absolute mt-[406px] flex flex-col py-2 px-4 bg-black/40 backdrop-blur-sm rounded-b-2xl  w-80 ">
+            <div className="absolute mt-[404px] flex flex-col py-2 px-4 bg-black/40 backdrop-blur-sm rounded-b-2xl  w-80 ">
               <h2 className="font-medium text-lg text-secondaryColor ">
                 Client
               </h2>
@@ -120,7 +120,7 @@ function Works() {
                 className="h-full transition-all duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="absolute mt-[406px] flex flex-col py-2 px-4 bg-black/40 backdrop-blur-sm rounded-b-2xl  w-80 ">
+            <div className="absolute mt-[404px] flex flex-col py-2 px-4 bg-black/40 backdrop-blur-sm rounded-b-2xl  w-80 ">
               <h2 className="font-medium text-lg text-secondaryColor ">
                 Client
               </h2>
@@ -139,7 +139,7 @@ function Works() {
                 className="h-full transition-all duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="absolute mt-[406px] flex flex-col py-2 px-4 bg-black/40 backdrop-blur-sm rounded-b-2xl  w-80 ">
+            <div className="absolute mt-[404px] flex flex-col py-2 px-4 bg-black/40 backdrop-blur-sm rounded-b-2xl  w-80 ">
               <h2 className="font-medium text-lg text-secondaryColor ">
                 Client
               </h2>
@@ -158,7 +158,7 @@ function Works() {
                 className="h-full transition-all duration-300 ease-in-out hover:scale-110"
               />
             </div>
-            <div className="absolute mt-[406px] flex flex-col py-2 px-4 bg-black/40 backdrop-blur-sm rounded-b-2xl  w-80 ">
+            <div className="absolute mt-[404px] flex flex-col py-2 px-4 bg-black/40 backdrop-blur-sm rounded-b-2xl  w-80 ">
               <h2 className="font-medium text-lg text-secondaryColor ">
                 Client
               </h2>
