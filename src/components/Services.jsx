@@ -1,12 +1,12 @@
-import design from "../images/design.png";
-import marketingStrategy from "../images/marketingStrategy.png";
-import contentMarketing from "../images/contentMarketing.png";
-import motionGraphics from "../images/motionGraphics.png";
-import photography from "../images/photography.png";
-import advertising from "../images/advertising.png";
-import socialMedia from "../images/socialMedia.png";
-import influencerMarketing from "../images/influencerMarketing.png";
-import eventManagement from "../images/eventManagement.png";
+import design from "../images/HomePageImages/design.png";
+import marketingStrategy from "../images/HomePageImages/marketingStrategy.png";
+import contentMarketing from "../images/HomePageImages/contentMarketing.png";
+import motionGraphics from "../images/HomePageImages/motionGraphics.png";
+import photography from "../images/HomePageImages/photography.png";
+import advertising from "../images/HomePageImages/advertising.png";
+import socialMedia from "../images/HomePageImages/socialMedia.png";
+import influencerMarketing from "../images/HomePageImages/influencerMarketing.png";
+import eventManagement from "../images/HomePageImages/eventManagement.png";
 import React, { useRef, useEffect } from "react";
 
 function Services() {

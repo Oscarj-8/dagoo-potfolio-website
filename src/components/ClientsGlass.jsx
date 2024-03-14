@@ -1,9 +1,9 @@
-import Borsaye from "../images/Borsaye Logo_full White1.png";
-import Gets from "../images/Gets.png";
-import Lala from "../images/Lala land@3x.png";
-import Legacy from "../images/Legacy@3x.png";
-import Solo from "../images/Solo.png";
-import Sabegn from "../images/sabegn@3x.png";
+import Borsaye from "../images/HomePageImages/Borsaye Logo_full White1.png";
+import Gets from "../images/HomePageImages/Gets.png";
+import Lala from "../images/HomePageImages/Lala land@3x.png";
+import Legacy from "../images/HomePageImages/Legacy@3x.png";
+import Solo from "../images/HomePageImages/Solo.png";
+import Sabegn from "../images/HomePageImages/sabegn@3x.png";
 function ClientsGlass() {
   return (
     <div

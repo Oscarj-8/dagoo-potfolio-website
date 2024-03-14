@@ -6,7 +6,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
-import dagoo from "../images/dagoo.png";
+import dagoo from "../images/HomePageImages/dagoo.png";
 
 function Footer() {
   return (

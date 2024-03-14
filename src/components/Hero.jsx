@@ -1,5 +1,5 @@
 import Nav from "./Nav";
-import heroBg from "../images/heroBg.png";
+import heroBg from "../images/HomePageImages/heroBg.png";
 import CallUs from "./CallUs";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";

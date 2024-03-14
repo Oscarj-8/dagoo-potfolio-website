@@ -1,4 +1,4 @@
-import dagooLogo from "../images/dagoo.png";
+import dagooLogo from "../images/HomePageImages/dagoo.png";
 import { useState } from "react";
 
 function Nav({ scrollToSection }) {

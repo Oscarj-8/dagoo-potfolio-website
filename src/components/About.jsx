@@ -1,5 +1,5 @@
-import Vector from "../images/Vector.png";
-import design from "../images/design.png";
+import Vector from "../images/HomePageImages/Vector.png";
+import design from "../images/HomePageImages/design.png";
 
 function About() {
   const textStyle = {
