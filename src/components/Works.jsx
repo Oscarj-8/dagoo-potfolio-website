@@ -7,7 +7,7 @@ function Works() {
       id="works"
     >
       {/* <Circles /> */}
-      <div className="mt-[400px] flex flex-col items-center gap-8 z-10 md:mt-[350px] lg:mt-[400px] xl:mt-[500px] 2xl:mt-[250px] xl:gap-16 w-[100vw]">
+      <div className="mt-[400px] flex flex-col items-center gap-8 z-10 md:mt-[350px] lg:mt-[400px] xl:mt-[300px] 2xl:mt-[150px] xl:gap-16 w-[100vw]">
         <div className="text-center flex flex-col text-white gap-2">
           <h1 className="text-2xl font-semibold lg:text-3xl">Our works</h1>
           <p className="text-white/80 text-lg">Here are some of our works</p>
