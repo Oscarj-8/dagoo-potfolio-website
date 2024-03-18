@@ -1,4 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import CloseIcon from "@mui/icons-material/Close";
+import Typography from "@mui/material/Typography";
+import ReusableModal from "./ReusableModal";
+import IconButton from "@mui/material/IconButton";
 import {
   faMapMarkerAlt,
   faPhone,
@@ -6,12 +10,15 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
+import CallUs from "./CallUs";
 
 const textStyle = {
   fontFamily: "Bebas Neue, sans-serif",
 };
 
 const ContactUs = () => {
+  const [open, setOpen] = useState(false);
+  const handleClose = () => setOpen(false);
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -230,6 +237,47 @@ const ContactUs = () => {
           )}
         </form>
       </div>
+      <ReusableModal
+        backgroundColor="linear-gradient(45deg,  #613886 90%, #34C1ED 60%)"
+        open={open}
+        onClose={handleClose}
+      >
+        <div className="flex flex-col items-center min-w-[300px] max-w-[500px] text-white gap-2">
+          <div className="w-full flex justify-between items-center ">
+            <Typography
+              id="modal-modal-title"
+              variant="h6"
+              component="h2"
+              className="text-left w-full"
+            >
+              Our contact information
+            </Typography>
+            <IconButton aria-label="close">
+              <CloseIcon className="text-white" onClick={handleClose} />
+            </IconButton>{" "}
+          </div>
+          <hr className="bg-gray-500 w-full" />
+          <Typography
+            className="w-full flex flex-col gap-2"
+            id="modal-modal-description"
+            sx={{ mt: 2 }}
+          >
+            <p className="flex gap-2">
+              <span className="font-semibold">Mobile 1:</span>
+              0919417797
+            </p>
+            <p className="flex gap-2">
+              <span className="font-semibold">Mobile 2:</span>
+              0944355364
+            </p>
+            <p className="flex gap-2">
+              <span className="font-semibold">Email:</span>
+              dagooincorporated@gmail.com
+            </p>
+          </Typography>
+          <CallUs />
+        </div>
+      </ReusableModal>
     </div>
   );
 };
