@@ -25,6 +25,7 @@ function Works() {
               </div>
               <div className="h-full overflow-hidden">
                 <img
+                  loading="lazy"
                   src={work.photo}
                   alt="works"
                   className="h-full transition-all duration-300 ease-in-out hover:scale-110 hover:rotate-3 object-cover"
