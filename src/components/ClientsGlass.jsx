@@ -15,14 +15,13 @@ function ClientsGlass() {
         Our clients
       </h2>
       <div className="flex flex-wrap items-center justify-center overflow-hidden">
-        <img className="w-44  xl:w-36" src={sak} alt="" />
         <img src={Borsaye} className="w-36 lg:w-48 xl:w-44" alt="" />
         <img src={Solo} className="w-32 xl:w-48" alt="" />
         <img src={Legacy} className="w-36  xl:w-28 2xl:w-36" alt="" />
         <img src={Sabegn} className="w-32  xl:w-36" alt="" />
         <img src={Gets} className="w-32  xl:w-28" alt="" />
-
         <img src={Lala} className="w-32  xl:w-36 2xl:w-36" alt="" />
+        <img className="w-44  xl:w-36" src={sak} alt="" />
       </div>
     </div>
   );
