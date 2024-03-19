@@ -10,9 +10,6 @@ import eventManagement from "../images/HomePageImages/eventManagement.png";
 import React, { useRef, useEffect } from "react";
 
 function Services() {
-  const textStyle = {
-    fontFamily: "Bebas Neue, sans-serif",
-  };
   const fadeIns = useRef([]);
 
   useEffect(() => {
@@ -54,13 +51,10 @@ function Services() {
           ref={(el) => (fadeIns.current[0] = el)}
         >
           <div className="flex flex-col gap-2 xl lg:w-[60]">
-            <h2
-              className="text-2xl font-bold text-[#414141] tracking-wide xl:text-4xl"
-              style={textStyle}
-            >
+            <h2 className="text-2xl font-medium text-[#414141] tracking-wide xl:text-3xl">
               BRANDING & GRAPHICS
             </h2>
-            <h4 className="text-lg font-normal xl:text-2xl" style={textStyle}>
+            <h4 className="text-lg font-light xl:text-xl">
               Brand Identity | Branding | LogoDesign | Stationery Design |
               PrintDesign | Packaging Design
             </h4>
@@ -78,13 +72,10 @@ function Services() {
           ref={(el) => (fadeIns.current[1] = el)}
         >
           <div className="flex flex-col gap-2">
-            <h2
-              className="text-2xl font-bold text-[#414141] tracking-wide xl:text-4xl"
-              style={textStyle}
-            >
+            <h2 className="text-2xl font-medium text-[#414141] tracking-wide xl:text-3xl">
               MARKETING STRATEGY
             </h2>
-            <h4 className=" xl:text-2xl text-lg font-normal" style={textStyle}>
+            <h4 className="text-lg font-light xl:text-xl">
               Marketing Planning | Marketing Management Brand Strategy | Market
               Research| Communications and Public Relation
             </h4>
@@ -102,10 +93,7 @@ function Services() {
           ref={(el) => (fadeIns.current[2] = el)}
         >
           <div className="flex flex-col gap-2">
-            <h2
-              className="text-2xl font-bold text-[#414141] tracking-wide xl:text-4xl"
-              style={textStyle}
-            >
+            <h2 className="text-2xl font-medium text-[#414141] tracking-wide xl:text-3xl">
               CONTENT MARKETING
             </h2>
             <p className="xl:text-lg">
@@ -123,10 +111,7 @@ function Services() {
           ref={(el) => (fadeIns.current[3] = el)}
         >
           <div className="flex flex-col gap-2">
-            <h2
-              className="text-2xl font-bold text-[#414141] tracking-wide xl:text-4xl"
-              style={textStyle}
-            >
+            <h2 className="text-2xl font-medium text-[#414141] tracking-wide xl:text-3xl">
               MOTION GRAPHICS
             </h2>
             <p className="xl:text-lg">
@@ -144,10 +129,7 @@ function Services() {
           ref={(el) => (fadeIns.current[4] = el)}
         >
           <div className="flex flex-col gap-2">
-            <h2
-              className="text-2xl font-bold text-[#414141] tracking-wide xl:text-4xl"
-              style={textStyle}
-            >
+            <h2 className="text-2xl font-medium text-[#414141] tracking-wide xl:text-3xl">
               PHOTOGRAPHY
             </h2>
             <p className="xl:text-lg">
@@ -165,10 +147,7 @@ function Services() {
           ref={(el) => (fadeIns.current[5] = el)}
         >
           <div className="flex flex-col gap-2">
-            <h2
-              className="text-2xl font-bold text-[#414141] tracking-wide xl:text-4xl"
-              style={textStyle}
-            >
+            <h2 className="text-2xl font-medium text-[#414141] tracking-wide xl:text-3xl">
               ADVERTISING
             </h2>
             <p className="xl:text-lg">
@@ -186,10 +165,7 @@ function Services() {
           ref={(el) => (fadeIns.current[6] = el)}
         >
           <div className="flex flex-col gap-2">
-            <h2
-              className="text-2xl font-bold text-[#414141] tracking-wide xl:text-4xl"
-              style={textStyle}
-            >
+            <h2 className="text-2xl font-medium text-[#414141] tracking-wide xl:text-3xl">
               SOCIAL MEDIA MANAGEMENT
             </h2>
             <p className="xl:text-lg">
@@ -206,10 +182,7 @@ function Services() {
           ref={(el) => (fadeIns.current[7] = el)}
         >
           <div className="flex flex-col gap-2">
-            <h2
-              className="text-2xl font-bold text-[#414141] tracking-wide xl:text-4xl"
-              style={textStyle}
-            >
+            <h2 className="text-2xl font-medium text-[#414141] tracking-wide xl:text-3xl">
               INFLUENCER MARKETING
             </h2>
             <p className="xl:text-lg">
@@ -226,13 +199,10 @@ function Services() {
           ref={(el) => (fadeIns.current[8] = el)}
         >
           <div className="flex flex-col gap-2">
-            <h2
-              className="text-2xl font-bold text-[#414141] tracking-wide xl:text-4xl"
-              style={textStyle}
-            >
+            <h2 className="text-2xl font-medium text-[#414141] tracking-wide xl:text-3xl">
               EVENT MANAGEMENT
             </h2>
-            <h4 className=" xl:text-2xl text-lg font-normal" style={textStyle}>
+            <h4 className="text-lg font-light xl:text-xl">
               Corporate | Concerts | Exhibitions
             </h4>
             <p className="xl:text-lg">

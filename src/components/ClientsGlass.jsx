@@ -5,6 +5,7 @@ import Legacy from "../images/HomePageImages/Legacy@3x.png";
 import Solo from "../images/HomePageImages/Solo.png";
 import Sabegn from "../images/HomePageImages/sabegn@3x.png";
 import sak from "../images/HomePageImages/sak.png";
+
 function ClientsGlass() {
   return (
     <div

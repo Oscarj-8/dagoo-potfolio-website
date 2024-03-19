@@ -28,10 +28,7 @@ function Footer() {
                 className="reflect text-2xl xl:text-3xl cursor-pointer hover:scale-125 transition-all duration-500 ease-in-out"
               />
             </a>
-            <a
-              href="https://www.instagram.com/dagooinc?igsh=ZDd6czJndWZ3MWJ1"
-              target="_blank"
-            >
+            <a href="https://www.instagram.com/dagoovisuals/" target="_blank">
               <FontAwesomeIcon
                 icon={faInstagram}
                 className="reflect text-2xl xl:text-3xl cursor-pointer hover:scale-125 transition-all duration-500 ease-in-out"
