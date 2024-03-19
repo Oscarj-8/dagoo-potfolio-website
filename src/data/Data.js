@@ -2,7 +2,8 @@ import borsayeWork from "../images/HomePageImages/borsayeWork.jpg";
 import legacyWork from "../images/HomePageImages/legacyWork.jpg";
 import solafricWork from "../images/HomePageImages/solafricWork.jpg";
 import lalalandWork from "../images/HomePageImages/lalalandWork.jpg";
-
+import sabegnWork from "../images/HomePageImages/sabegnWork.jpg";
+import getsWork from "../images/HomePageImages/getsWork.jpg";
 export const works = [
   {
     id: 1,
@@ -27,5 +28,17 @@ export const works = [
     workType: "Photography",
     client: "LaLa Land",
     photo: lalalandWork,
+  },
+  {
+    id: 5,
+    workType: "Photography",
+    client: "Sabegn",
+    photo: sabegnWork,
+  },
+  {
+    id: 6,
+    workType: "Social media management",
+    client: "Gets",
+    photo: getsWork,
   },
 ];
