@@ -68,7 +68,7 @@ function Services() {
           <img src={design} className="flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[60em] 2xl:w-[70em] items-center max-w-[400px] lg:max-w-full bg-white"
+          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row-reverse xl:w-[60em] 2xl:w-[70em] items-center max-w-[400px] lg:max-w-full bg-white"
           ref={(el) => (fadeIns.current[1] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -107,7 +107,7 @@ function Services() {
           <img src={contentMarketing} className=" flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[60em] 2xl:w-[70em] items-center max-w-[400px] lg:max-w-full bg-white"
+          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row-reverse xl:w-[60em] 2xl:w-[70em] items-center max-w-[400px] lg:max-w-full bg-white"
           ref={(el) => (fadeIns.current[3] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -143,7 +143,7 @@ function Services() {
           <img src={photography} className=" flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[60em] 2xl:w-[70em] items-center max-w-[400px] lg:max-w-full bg-white"
+          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row-reverse xl:w-[60em] 2xl:w-[70em] items-center max-w-[400px] lg:max-w-full bg-white"
           ref={(el) => (fadeIns.current[5] = el)}
         >
           <div className="flex flex-col gap-2">
@@ -178,7 +178,7 @@ function Services() {
           <img src={socialMedia} className=" flex-1 rounded-lg" />
         </div>
         <div
-          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row xl:w-[60em] 2xl:w-[70em] items-center max-w-[400px] lg:max-w-full bg-white"
+          className="fade-inn flex flex-col p-4 border-2 rounded-lg gap-2 lg:border-none lg:flex-row-reverse xl:w-[60em] 2xl:w-[70em] items-center max-w-[400px] lg:max-w-full bg-white"
           ref={(el) => (fadeIns.current[7] = el)}
         >
           <div className="flex flex-col gap-2">
