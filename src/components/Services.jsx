@@ -55,8 +55,8 @@ function Services() {
               BRANDING & GRAPHICS
             </h2>
             <h4 className="text-lg font-light xl:text-xl">
-              Brand Identity | Branding | LogoDesign | Stationery Design |
-              PrintDesign | Packaging Design
+              Brand Identity | Branding | LogoDesign | Stationery Design | Print
+              Design | Packaging Design
             </h4>
             <p className="xl:text-lg">
               In the 21st century, brands are abundant and diverse. We create
