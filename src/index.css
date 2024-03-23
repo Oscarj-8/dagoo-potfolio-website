@@ -141,6 +141,7 @@ body::-webkit-scrollbar {
   display: flex;
   background-color: #020110;
   z-index: 999;
+  transition: all 1s ease-in-out;
 }
 
 svg {
@@ -187,6 +188,6 @@ svg text.text-body {
   }
 }
 
-.hide {
-  display: none;
+.loader-container.hide {
+  opacity: 0;
 }
