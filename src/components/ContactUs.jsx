@@ -12,10 +12,6 @@ import {
 import { useState } from "react";
 import CallUs from "./CallUs";
 
-const textStyle = {
-  fontFamily: "Bebas Neue, sans-serif",
-};
-
 const ContactUs = () => {
   const [open, setOpen] = useState(false);
   const handleClose = () => setOpen(false);
@@ -96,12 +92,7 @@ const ContactUs = () => {
           <div className="flex w-full cursor-pointer text-left gap-4 hover:scale-105 transition-all duration-500 ease-in-out">
             <FontAwesomeIcon icon={faEnvelope} className="h-8 text-mainColor" />
             <div className="text-[#323232]">
-              <h1
-                className="text-xl md:text-2xl font-semibold"
-                style={textStyle}
-              >
-                Email
-              </h1>
+              <h1 className="text-xl md:text-2xl ">Email</h1>
               <p>dagooincorporated@gmail.com</p>
               <p>Addis Ababa, Ethiopia</p>
             </div>
@@ -112,13 +103,8 @@ const ContactUs = () => {
               className="h-10 text-mainColor"
             />
             <div className="text-[#323232] ">
-              <h1
-                className="text-xl md:text-2xl font-semibold"
-                style={textStyle}
-              >
-                Address
-              </h1>
-              <p>bole atlas in front of sapphire addis hotel</p>
+              <h1 className="text-xl md:text-2xl ">Address</h1>
+              <p>Bole atlas in front of sapphire addis hotel</p>
               <p>Addis Ababa, Ethiopia</p>
             </div>
           </div>
@@ -128,12 +114,7 @@ const ContactUs = () => {
               className="h-8 mt-[4px] text-mainColor"
             />
             <div className="text-[#323232] ">
-              <h1
-                className="text-xl md:text-2xl font-semibold"
-                style={textStyle}
-              >
-                Phone
-              </h1>
+              <h1 className="text-xl md:text-2xl ">Phone</h1>
               <p>Mobile 1: (+251) 919 417 797 </p>
               <p>Mobile 2: (+251) 944 355 364 </p>
             </div>
@@ -141,12 +122,7 @@ const ContactUs = () => {
           <div className="flex w-full cursor-pointer text-left gap-4 hover:scale-105 transition-all duration-500 ease-in-out">
             <FontAwesomeIcon icon={faClock} className="h-8 text-mainColor" />
             <div className="text-[#323232] ">
-              <h1
-                className="text-xl md:text-2xl font-semibold"
-                style={textStyle}
-              >
-                Opening Hours
-              </h1>
+              <h1 className="text-xl md:text-2xl ">Opening Hours</h1>
               <p>Monday to Sunday</p>
               <p> 9:00AM - 7:00PM</p>
             </div>
@@ -154,10 +130,7 @@ const ContactUs = () => {
         </div>
       </div>
       <div className="flex flex-col w-full max-w-[700px] bg-gradient-to-br from-[#8239C3] to-[#16A2CE] rounded-md p-3 gap-4 drop-shadow-[0_4px_5px_rgba(0,0,0,0.5)] md:p-4">
-        <h2
-          className="text-xl md:text-3xl text-white font-semibold"
-          style={textStyle}
-        >
+        <h2 className="text-xl md:text-3xl text-white font-semibold">
           Get in touch
         </h2>
         {emptyField && (
@@ -199,7 +172,6 @@ const ContactUs = () => {
             value={formData.pNumber}
             onChange={handleChange}
           />
-
           <textarea
             name="message"
             id="message"
@@ -216,7 +188,6 @@ const ContactUs = () => {
                 ? "bg-[#a641ff] cursor-progress"
                 : "bg-[#8239C3] cursor-pointer"
             }  p-2 text-white tracking-wider rounded-md shadow-xl font-semibold text-xl w-full hover:shadow-none`}
-            style={textStyle}
             disabled={loading}
           >
             {loading ? "Sending..." : "Send"}
