@@ -1,4 +1,15 @@
+import { useEffect } from "react";
+
 const Loader = () => {
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const loader = document.querySelector(".loader-container");
+      loader.classList.add("hide");
+    }, 6000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className="loader-container">
       <svg viewBox="0 0 400 160">

@@ -135,9 +135,12 @@ body::-webkit-scrollbar {
 }
 
 .loader-container {
+  inset: 0;
+  position: absolute;
   height: 100svh;
   display: flex;
   background-color: #020110;
+  z-index: 999;
 }
 
 svg {
@@ -158,7 +161,7 @@ svg text {
 
 svg text.text-body {
   stroke: rgb(156, 156, 165);
-  animation: animate-stroke 3s infinite alternate;
+  animation: animate-stroke 2s infinite alternate;
 }
 
 @keyframes animate-stroke {
@@ -182,4 +185,8 @@ svg text.text-body {
     stroke-dashoffset: -25%;
     stroke-dasharray: 32% 0%;
   }
+}
+
+.hide {
+  display: none;
 }
