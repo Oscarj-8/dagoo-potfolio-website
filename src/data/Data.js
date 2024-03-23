@@ -38,7 +38,7 @@ export const works = [
   {
     id: 6,
     workType: "Social media management",
-    client: "Gets",
+    client: "Gets magazine",
     photo: getsWork,
   },
 ];
