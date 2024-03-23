@@ -2,6 +2,13 @@ import { useEffect } from "react";
 
 const Loader = () => {
   useEffect(() => {
+    document.body.classList.add("overflow-hidden");
+    setTimeout(() => {
+      document.body.classList.remove("overflow-hidden");
+    }, 6000);
+  }, []);
+
+  useEffect(() => {
     const timer = setTimeout(() => {
       const loader = document.querySelector(".loader-container");
       loader.classList.add("hide");

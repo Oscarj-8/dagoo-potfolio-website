@@ -137,7 +137,7 @@ body::-webkit-scrollbar {
 .loader-container {
   inset: 0;
   position: absolute;
-  height: 100svh;
+  height: 100%;
   display: flex;
   background-color: #020110;
   z-index: 999;
