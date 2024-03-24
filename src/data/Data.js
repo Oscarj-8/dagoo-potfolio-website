@@ -7,36 +7,42 @@ import getsWork from "../images/WorksImages/gets.jpg";
 export const works = [
   {
     id: 1,
+    catagory: "Graphics Design",
     workType: "Product photography",
     client: "Borsaye",
     photo: borsayeWork,
   },
   {
     id: 2,
+    catagory: "Graphics Design",
     workType: "Event documentation",
     client: "Legacy",
     photo: legacyWork,
   },
   {
     id: 3,
+    catagory: "Photography",
     workType: "Photography and digital marketing",
     client: "Solafric",
     photo: solafricWork,
   },
   {
     id: 4,
+    catagory: "Photography",
     workType: "Photography",
     client: "LaLa Land",
     photo: lalalandWork,
   },
   {
     id: 5,
+    catagory: "Social media management",
     workType: "Photography",
     client: "Sabegn",
     photo: sabegnWork,
   },
   {
     id: 6,
+    catagory: "Social media management",
     workType: "Social media management",
     client: "Gets magazine",
     photo: getsWork,
