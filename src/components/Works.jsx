@@ -13,6 +13,17 @@ function Works() {
           <h1 className="text-2xl font-semibold lg:text-3xl">Our works</h1>
           <p className="text-white/80 text-lg">Here are some of our works</p>
         </div>
+        <div className="flex flex-wrap items-center justify-center gap-2 text-white rounded-md">
+          <span className="font-light bg-white/30 p-2 cursor-pointer  backdrop-blur-sm border border-transparent transition-all duration-300 ease-in-out hover:border-white/50 rounded-md">
+            Graphics Design
+          </span>
+          <span className="font-light bg-white/30 p-2 cursor-pointer  backdrop-blur-sm border border-transparent transition-all duration-300 ease-in-out hover:border-white/50 rounded-md">
+            Photography
+          </span>
+          <span className="font-light bg-white/30 cursor-pointer p-2   backdrop-blur-sm border border-transparent transition-all duration-300 ease-in-out hover:border-white/50 rounded-md">
+            Social media management
+          </span>
+        </div>
         <div className="flex flex-wrap gap-14 justify-center z-10">
           {works.map((work) => (
             <div
