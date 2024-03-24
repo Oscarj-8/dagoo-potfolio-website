@@ -1,9 +1,9 @@
-import borsayeWork from "../images/HomePageImages/borsayeWork.jpg";
-import legacyWork from "../images/HomePageImages/legacyWork.jpg";
-import solafricWork from "../images/HomePageImages/solafricWork.jpg";
-import lalalandWork from "../images/HomePageImages/lalalandWork.jpg";
-import sabegnWork from "../images/HomePageImages/sabegnWork.jpg";
-import getsWork from "../images/HomePageImages/getsWork.jpg";
+import borsayeWork from "../images/WorksImages/borsaye.jpg";
+import legacyWork from "../images/WorksImages/legacy.jpg";
+import solafricWork from "../images/WorksImages/solafric.jpg";
+import lalalandWork from "../images/WorksImages/lalaland.jpg";
+import sabegnWork from "../images/WorksImages/sabegn.jpg";
+import getsWork from "../images/WorksImages/gets.jpg";
 export const works = [
   {
     id: 1,
