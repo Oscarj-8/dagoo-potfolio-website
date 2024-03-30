@@ -8,11 +8,9 @@ const ReusableModal = ({ open, onClose, children, backgroundColor }) => {
     top: "50%",
     left: "50%",
     transform: "translate(-50%, -50%)",
-    width: "auto",
     background: backgroundColor,
     borderRadius: "0.5em",
     boxShadow: 24,
-    p: 4,
     outline: "none",
   };
 

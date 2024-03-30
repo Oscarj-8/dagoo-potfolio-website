@@ -59,7 +59,7 @@ export default function Hero() {
           open={open}
           onClose={handleClose}
         >
-          <div className="flex flex-col items-center min-w-[300px] max-w-[500px] text-white gap-2">
+          <div className="p-4 flex flex-col items-center w-[20em] text-white gap-2">
             <div className="w-full flex justify-between items-center ">
               <Typography
                 id="modal-modal-title"
@@ -79,16 +79,24 @@ export default function Hero() {
               id="modal-modal-description"
               sx={{ mt: 2 }}
             >
-              <p className="flex gap-2">
+              <p className="flex gap-2 flex-wrap">
                 <span className="font-semibold">Mobile 1:</span>
-                0919417797
-              </p>
-              <p className="flex gap-2">
-                <span className="font-semibold">Mobile 2:</span>
                 0944355364
               </p>
-              <p className="flex gap-2">
+              <p className="flex gap-2 flex-wrap">
+                <span className="font-semibold">Mobile 2:</span>
+                0919417797
+              </p>
+              <p className="flex gap-2 flex-wrap">
                 <span className="font-semibold">Email:</span>
+                dagooincorporated@gmail.com
+              </p>
+              <p className="flex gap-2 flex-wrap">
+                <span className="font-semibold">Instagram 1:</span>
+                dagooincorporated@gmail.com
+              </p>
+              <p className="flex gap-2 flex-wrap">
+                <span className="font-semibold">Instagram 2:</span>
                 dagooincorporated@gmail.com
               </p>
             </Typography>

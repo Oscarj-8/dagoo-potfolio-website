@@ -193,7 +193,7 @@ svg text.text-body {
 }
 
 .catagory {
-  transform: translateY(-14px);
+  transform: translateY(-10px);
 }
 
 .catagory::after {
